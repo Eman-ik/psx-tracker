@@ -1,0 +1,10 @@
+# Verified working together as of Jul 2026 (Python 3.12)
+psxdata==0.1.0a5
+pandas>=2.2,<3.1
+pandas-ta==0.4.71b0
+numpy>=2.2,<2.3
+feedparser==6.0.12
+
+# Optional, for upgraded sentiment scoring (see sentiment.py notes) — heavier install:
+# transformers
+# torch
