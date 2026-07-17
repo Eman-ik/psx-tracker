@@ -36,7 +36,15 @@ def fetch_symbol(symbol: str) -> pd.DataFrame:
 def upsert_prices(conn: sqlite3.Connection, df: pd.DataFrame) -> int:
     if df.empty:
         return 0
-    rows = list(df.itertuples(index=False, name=None))
+    # IMPORTANT: cast every value to a native Python type before binding.
+    # numpy.int64 (unlike numpy.float64, which subclasses Python's float)
+    # is NOT recognized by sqlite3 and gets silently stored as a raw byte
+    # blob instead of an integer. Explicit int()/float() casts avoid this.
+    rows = [
+        (str(r.symbol), str(r.date), float(r.open), float(r.high), float(r.low),
+         float(r.close), int(r.volume), int(r.is_anomaly))
+        for r in df.itertuples(index=False)
+    ]
     conn.executemany(
         """
         INSERT INTO prices (symbol, date, open, high, low, close, volume, is_anomaly)

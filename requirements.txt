@@ -4,6 +4,8 @@ pandas>=2.2,<3.1
 pandas-ta==0.4.71b0
 numpy>=2.2,<2.3
 feedparser==6.0.12
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.34,<1.0
 
 # Optional, for upgraded sentiment scoring (see sentiment.py notes) — heavier install:
 # transformers

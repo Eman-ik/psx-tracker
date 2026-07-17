@@ -6,6 +6,11 @@ Add or remove tickers here — everything else reads from this list.
 # PSX ticker symbols (exact case matters — psxdata expects uppercase).
 TICKERS = ["FFC", "FATIMA", "EFERT"]
 
+# Symbols exposed by the separately hosted delayed-quotes API. Keeping this
+# list separate ensures that changing the website watchlist does not silently
+# change the existing end-of-day workflow above.
+QUOTE_TICKERS = ["EFERT", "ENGROH", "FFC", "LUCK", "HBL"]
+
 # Map tickers to full company names — used for news search queries in sentiment.py.
 TICKER_NAMES = {
     "FFC": "Fauji Fertilizer Company",

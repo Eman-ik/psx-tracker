@@ -43,25 +43,35 @@ from db import get_connection
 
 POSITIVE_WORDS = {
     "profit", "surge", "surges", "growth", "record", "rally", "gain", "gains",
-    "up", "rise", "rises", "beat", "beats", "strong", "upgrade", "expansion",
-    "dividend", "bullish", "outperform",
+    "rise", "rises", "beat", "beats", "strong", "upgrade", "expansion",
+    "dividend", "bullish", "outperform", "boost", "boosts", "higher",
 }
 NEGATIVE_WORDS = {
     "loss", "losses", "decline", "declines", "fall", "falls", "drop", "drops",
     "down", "weak", "downgrade", "cut", "cuts", "shortage", "crisis",
     "bearish", "underperform", "default", "fine", "penalty",
+    "slide", "slides", "sliding", "slid", "tumble", "tumbles", "plunge",
+    "plunges", "lower",
 }
 
 
 def score_headline(text: str) -> tuple[str, float]:
     """Crude keyword scorer. Returns (label, score in [-1, 1]).
-    Replace with FinBERT (see module docstring) when ready."""
+    label is one of: positive, negative, neutral (no signal), mixed
+    (both positive and negative signals present — genuinely ambiguous,
+    e.g. "delivers strong profit, yet sends PSX sliding"). Score is
+    net polarity either way. Replace with FinBERT (see module docstring)
+    when this stops being good enough."""
     words = {w.strip(".,!?").lower() for w in text.split()}
     pos = len(words & POSITIVE_WORDS)
     neg = len(words & NEGATIVE_WORDS)
-    if pos == neg:
+
+    if pos == 0 and neg == 0:
         return "neutral", 0.0
-    score = (pos - neg) / max(pos + neg, 1)
+    if pos > 0 and neg > 0:
+        return "mixed", round((pos - neg) / (pos + neg), 3)
+
+    score = (pos - neg) / (pos + neg)
     label = "positive" if score > 0 else "negative"
     return label, round(score, 3)
 

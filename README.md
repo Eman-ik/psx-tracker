@@ -36,20 +36,21 @@ python sentiment.py       # pulls recent news + scores it
 python view.py            # print a quick summary of everything above
 ```
 
-## What's tested vs. what isn't
+## Verification status
 
-I built and ran this in a sandboxed environment that can only reach
-PyPI/GitHub — **not** PSX's or Google's servers. So:
+Live integrations were verified on July 17, 2026:
 
-- ✅ **Tested and verified working:** the SQLite schema, the upsert logic,
-  the `pandas-ta` indicator calculations (against synthetic OHLCV data
-  matching PSX's exact schema), and the sentiment keyword scorer.
-- ⚠️ **Not tested live:** `fetch_data.py`'s actual call to PSX via
-  `psxdata`, and `sentiment.py`'s actual call to Google News RSS. These
-  use documented, real APIs (I inspected `psxdata`'s live source to get
-  the exact function signatures and column names right), but you should
-  run `python fetch_data.py` yourself first and check the row counts
-  make sense before building anything on top.
+- ✅ `fetch_data.py` successfully fetched and upserted 1,122 historical
+  OHLCV rows for each of FFC, FATIMA, and EFERT, covering January 3, 2022
+  through July 16, 2026.
+- ✅ `sentiment.py` successfully fetched and stored 15 Google News RSS
+  headlines for each tracked company.
+- ✅ The SQLite schema, upsert logic, `pandas-ta` calculations, sentiment
+  keyword scorer, delayed quote API, and dashboard routes are tested.
+
+`psxdata` reported a small number of OHLC/order anomalies in the upstream
+history. The pipeline preserved its anomaly flags; inspect flagged records
+before using the dataset for analysis.
 
 If `psxdata` breaks (it's alpha software, `0.1.0a5` — PSX also changes
 its HTML periodically, which is what breaks every scraper eventually):
@@ -64,7 +65,53 @@ for personal use / learning / a private tool. If you plan to make the
 site public-facing or monetize it, that's the point to reach out to PSX
 first.
 
-## Automating it (free, via GitHub Actions)
+## Delayed quote API
+
+The daily workflow remains responsible for historical OHLCV, indicators,
+sentiment, and `data/latest.json`. A separate FastAPI service in `app.py`
+serves current screener quotes without writing to the database or repository.
+
+Install and run it locally:
+
+```bash
+pip install -r requirements.txt
+uvicorn app:app --host 0.0.0.0 --port 8000
+```
+
+Set `PSX_CORS_ORIGINS` to the comma-separated origins allowed to call the API
+(for example, `https://example.com,https://www.example.com`). The included
+`render.yaml` can deploy the service on Render; set that environment variable
+in the Render dashboard before calling the API from a public website.
+
+`GET /api/quotes` returns successful quotes, per-symbol errors, a UTC fetch
+time, and a suggested 900-second refresh interval. Some values may be `null`
+when the PSX screener does not publish that field. The frontend should label
+the result **“PSX prices — approximately 15-minute delayed”** and poll it like:
+
+The included responsive dashboard is available at the service root (`/`).
+When running locally, open `http://localhost:8000/` (or whichever port was
+passed to Uvicorn).
+
+```js
+const REFRESH_INTERVAL = 15 * 60 * 1000;
+
+async function loadQuotes() {
+  const response = await fetch("https://your-backend-domain.com/api/quotes");
+  if (!response.ok) throw new Error(`API returned ${response.status}`);
+  const result = await response.json();
+  renderQuotes(result.quotes);
+  showLastUpdated(result.fetched_at);
+}
+
+loadQuotes().catch(showStaleDataWarning);
+setInterval(() => loadQuotes().catch(showStaleDataWarning), REFRESH_INTERVAL);
+```
+
+`psxdata` being open source does not grant market-data redistribution rights.
+Obtain written clarification or a suitable licence from PSX before deploying a
+public or commercial site.
+
+## Automating the daily workflow (free, via GitHub Actions)
 
 `.github/workflows/update.yml` runs the full pipeline every weekday at
 4:00pm PKT and commits `data/latest.json` back to the repo — a small,

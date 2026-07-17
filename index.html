@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fertilizer Desk — PSX</title>
+<meta name="description" content="Daily technicals, fundamentals, and sentiment for FFC, FATIMA, and EFERT on the Pakistan Stock Exchange.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+
+  :root{
+    --paper:        #F1EDE1;
+    --paper-raised: #FBF9F1;
+    --ink:          #2B2A22;
+    --ink-soft:     #6B6656;
+    --field-green:  #3F6B3F;
+    --field-green-soft: #E4EBE1;
+    --granule-gold: #A8791F;
+    --granule-gold-soft: #F1E6C9;
+    --rust:         #A8442E;
+    --rust-soft:    #F3E1DC;
+    --hairline:     #D8D0BC;
+    --radius: 3px;
+  }
+
+  *{ box-sizing:border-box; }
+
+  html{ scroll-behavior:smooth; }
+
+  body{
+    margin:0;
+    background:
+      radial-gradient(var(--hairline) 0.6px, transparent 0.6px) 0 0/14px 14px,
+      var(--paper);
+    color:var(--ink);
+    font-family:'IBM Plex Sans', system-ui, sans-serif;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  a{ color:var(--field-green); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  a:focus-visible, button:focus-visible{ outline:2px solid var(--field-green); outline-offset:2px; }
+
+  .wrap{ max-width:1040px; margin:0 auto; padding:0 20px; }
+
+  /* ---------- Masthead ---------- */
+  .masthead{
+    padding:48px 0 28px;
+    border-bottom:1px solid var(--hairline);
+  }
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    letter-spacing:.14em;
+    color:var(--ink-soft);
+    text-transform:uppercase;
+    margin-bottom:10px;
+  }
+  h1{
+    font-family:'Zilla Slab', serif;
+    font-weight:700;
+    font-size:clamp(2rem, 5vw, 2.9rem);
+    margin:0 0 8px;
+    letter-spacing:-0.01em;
+  }
+  .tagline{
+    margin:0;
+    color:var(--ink-soft);
+    font-size:15px;
+    max-width:46ch;
+  }
+
+  /* ---------- Ticker strip (signature element) ---------- */
+  .ticker-strip{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+    gap:1px;
+    background:var(--hairline);
+    border:1px solid var(--hairline);
+    margin:28px 0 40px;
+    border-radius:var(--radius);
+    overflow:hidden;
+  }
+  .flap{
+    background:var(--paper-raised);
+    padding:16px 18px;
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+  }
+  @media (prefers-reduced-motion: no-preference){
+    .flap{ animation: rise .5s ease backwards; }
+    .flap:nth-child(1){ animation-delay:.02s; }
+    .flap:nth-child(2){ animation-delay:.09s; }
+    .flap:nth-child(3){ animation-delay:.16s; }
+    @keyframes rise{ from{ opacity:0; transform:translateY(6px);} to{ opacity:1; transform:none;} }
+  }
+  .flap-symbol{
+    font-family:'IBM Plex Mono', monospace;
+    font-weight:600;
+    font-size:13px;
+    letter-spacing:.06em;
+    color:var(--ink-soft);
+  }
+  .flap-price{
+    font-family:'IBM Plex Mono', monospace;
+    font-weight:600;
+    font-size:28px;
+    display:flex;
+    align-items:baseline;
+    gap:8px;
+  }
+  .flap-price .unit{ font-size:14px; color:var(--ink-soft); font-weight:400; }
+  .flap-move{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12.5px;
+    font-weight:500;
+    display:inline-flex;
+    align-items:center;
+    gap:4px;
+    width:fit-content;
+    padding:2px 7px;
+    border-radius:999px;
+  }
+  .flap-move.up{ background:var(--field-green-soft); color:var(--field-green); }
+  .flap-move.down{ background:var(--rust-soft); color:var(--rust); }
+  .flap-move.flat{ background:var(--hairline); color:var(--ink-soft); }
+
+  /* ---------- Ledger grid / cards ---------- */
+  .ledger-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+    gap:20px;
+    padding-bottom:56px;
+  }
+  .card{
+    background:var(--paper-raised);
+    border:1px solid var(--hairline);
+    border-radius:var(--radius);
+    padding:22px 22px 20px;
+  }
+  .card-head{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    border-bottom:1px solid var(--hairline);
+    padding-bottom:12px;
+    margin-bottom:16px;
+  }
+  .card-head h2{
+    font-family:'Zilla Slab', serif;
+    font-size:22px;
+    margin:0;
+  }
+  .card-head .as-of{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    color:var(--ink-soft);
+  }
+
+  .section-label{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:10.5px;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    margin:18px 0 8px;
+  }
+  .section-label:first-of-type{ margin-top:0; }
+
+  .stat-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:6px 0;
+    font-size:13.5px;
+    border-bottom:1px dashed var(--hairline);
+  }
+  .stat-row:last-child{ border-bottom:none; }
+  .stat-row .label{ color:var(--ink-soft); }
+  .stat-row .value{ font-family:'IBM Plex Mono', monospace; font-weight:500; }
+
+  .tag{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:10.5px;
+    padding:1px 6px;
+    border-radius:999px;
+    margin-left:8px;
+  }
+  .tag.gold{ background:var(--granule-gold-soft); color:var(--granule-gold); }
+  .tag.green{ background:var(--field-green-soft); color:var(--field-green); }
+  .tag.neutral{ background:var(--hairline); color:var(--ink-soft); }
+
+  .news-item{ padding:8px 0; border-bottom:1px dashed var(--hairline); display:flex; gap:8px; }
+  .news-item:last-child{ border-bottom:none; }
+  .dot{ width:7px; height:7px; border-radius:50%; margin-top:6px; flex:none; }
+  .dot.positive{ background:var(--field-green); }
+  .dot.negative{ background:var(--rust); }
+  .dot.mixed{ background:var(--granule-gold); }
+  .dot.neutral{ background:var(--ink-soft); opacity:.5; }
+  .news-text{ font-size:13px; }
+  .news-text a{ color:var(--ink); }
+  .news-source{ display:block; color:var(--ink-soft); font-size:11px; margin-top:2px; }
+
+  .fund-table{ width:100%; border-collapse:collapse; font-size:13px; }
+  .fund-table th{
+    text-align:left; font-family:'IBM Plex Mono', monospace; font-size:10.5px;
+    color:var(--ink-soft); font-weight:500; padding-bottom:6px; text-transform:uppercase; letter-spacing:.06em;
+  }
+  .fund-table td{ padding:5px 0; font-family:'IBM Plex Mono', monospace; border-top:1px dashed var(--hairline); }
+
+  .empty-note{ color:var(--ink-soft); font-size:13px; font-style:italic; }
+
+  /* ---------- Footer ---------- */
+  footer{
+    border-top:1px solid var(--hairline);
+    padding:20px 0 48px;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    color:var(--ink-soft);
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+  }
+  footer .sep{ opacity:.5; }
+
+  .error-banner{
+    background:var(--rust-soft); color:var(--rust); border:1px solid var(--rust);
+    border-radius:var(--radius); padding:14px 16px; margin:0 0 28px; font-size:13.5px;
+  }
+
+</style>
+</head>
+<body>
+
+  <div class="wrap">
+    <header class="masthead">
+      <div class="eyebrow">Pakistan Stock Exchange · Fertilizer Sector</div>
+      <h1>Fertilizer Desk</h1>
+      <p class="tagline">Daily technicals, fundamentals, and sentiment for the three names on this desk: FFC, FATIMA, EFERT.</p>
+    </header>
+
+    <div id="errorBanner"></div>
+
+    <section class="ticker-strip" id="tickerStrip" aria-label="Latest prices"></section>
+
+    <main class="ledger-grid" id="ledgerGrid"></main>
+
+    <footer>
+      <span id="updatedAt">Loading feed…</span>
+      <span class="sep">·</span>
+      <a id="rawLink" href="#" target="_blank" rel="noopener">View raw data</a>
+      <span class="sep">·</span>
+      <span>Market data via PSX, for personal use only — not investment advice.</span>
+    </footer>
+  </div>
+
+<script>
+(function(){
+
+  // ---- CONFIG: point this at your own repo's raw JSON ----
+  const CONFIG = {
+    dataUrl: "https://raw.githubusercontent.com/eman-ik/psx-tracker/main/data/latest.json"
+  };
+
+  const TICKERS = ["FFC", "FATIMA", "EFERT"];
+
+  const fmt = (n, decimals = 2) =>
+    (n === null || n === undefined || Number.isNaN(n))
+      ? "—"
+      : Number(n).toLocaleString(undefined, { minimumFractionDigits: decimals, maximumFractionDigits: decimals });
+
+  function rsiTag(rsi){
+    if (rsi === null || rsi === undefined) return "";
+    if (rsi > 70) return `<span class="tag gold">Overbought &gt;70</span>`;
+    if (rsi < 30) return `<span class="tag green">Oversold &lt;30</span>`;
+    return `<span class="tag neutral">Neutral</span>`;
+  }
+
+  function macdTag(macd, signal){
+    if (macd === null || signal === null || macd === undefined || signal === undefined) return "";
+    return macd > signal
+      ? `<span class="tag green">Bullish crossover</span>`
+      : `<span class="tag gold">Bearish crossover</span>`;
+  }
+
+  function renderTickerStrip(data){
+    const strip = document.getElementById("tickerStrip");
+    strip.innerHTML = TICKERS.map(sym => {
+      const t = data.tickers?.[sym];
+      const price = t?.price;
+      if (!price){
+        return `<div class="flap"><div class="flap-symbol">${sym}</div><div class="empty-note">No price data yet</div></div>`;
+      }
+      const move = price.close - price.open;
+      const movePct = price.open ? (move / price.open) * 100 : 0;
+      const dir = move > 0.001 ? "up" : move < -0.001 ? "down" : "flat";
+      const arrow = dir === "up" ? "▲" : dir === "down" ? "▼" : "—";
+      return `
+        <div class="flap">
+          <div class="flap-symbol">${sym}</div>
+          <div class="flap-price">${fmt(price.close)} <span class="unit">PKR</span></div>
+          <div class="flap-move ${dir}">${arrow} ${fmt(Math.abs(move))} (${fmt(Math.abs(movePct))}%) today</div>
+        </div>`;
+    }).join("");
+  }
+
+  function renderCard(sym, t){
+    const price = t?.price;
+    const ind = t?.indicators;
+    const news = t?.recent_news || [];
+    const fund = t?.fundamentals || [];
+
+    const priceBlock = price ? `
+      <div class="section-label">Price — ${price.date}</div>
+      <div class="stat-row"><span class="label">Close</span><span class="value">${fmt(price.close)}</span></div>
+      <div class="stat-row"><span class="label">Open / High / Low</span><span class="value">${fmt(price.open)} / ${fmt(price.high)} / ${fmt(price.low)}</span></div>
+      <div class="stat-row"><span class="label">Volume</span><span class="value">${price.volume ? Number(price.volume).toLocaleString() : "—"}</span></div>
+    ` : `<p class="empty-note">No price data yet — run fetch_data.py.</p>`;
+
+    const indBlock = ind ? `
+      <div class="section-label">Technicals</div>
+      <div class="stat-row"><span class="label">RSI (14)</span><span class="value">${fmt(ind.rsi_14)} ${rsiTag(ind.rsi_14)}</span></div>
+      <div class="stat-row"><span class="label">MACD</span><span class="value">${fmt(ind.macd)} ${macdTag(ind.macd, ind.macd_signal)}</span></div>
+      <div class="stat-row"><span class="label">SMA 20 / 50</span><span class="value">${fmt(ind.sma_20)} / ${fmt(ind.sma_50)}</span></div>
+      <div class="stat-row"><span class="label">Bollinger (20, 2σ)</span><span class="value">${fmt(ind.bb_lower)} – ${fmt(ind.bb_upper)}</span></div>
+    ` : `<p class="empty-note">No indicators yet — run indicators.py.</p>`;
+
+    const newsBlock = news.length ? `
+      <div class="section-label">Recent headlines</div>
+      ${news.map(n => `
+        <div class="news-item">
+          <span class="dot ${n.sentiment_label || 'neutral'}"></span>
+          <span class="news-text">
+            ${n.link ? `<a href="${n.link}" target="_blank" rel="noopener">${n.headline}</a>` : n.headline}
+            ${n.source ? `<span class="news-source">${n.source}</span>` : ""}
+          </span>
+        </div>`).join("")}
+    ` : `<div class="section-label">Recent headlines</div><p class="empty-note">No headlines pulled yet — run sentiment.py.</p>`;
+
+    const fundBlock = fund.length ? `
+      <div class="section-label">Fundamentals</div>
+      <table class="fund-table">
+        <thead><tr><th>Period</th><th>Revenue</th><th>Net profit</th><th>EPS</th></tr></thead>
+        <tbody>
+          ${fund.map(f => `<tr><td>${f.period}</td><td>${fmt(f.revenue, 0)}</td><td>${fmt(f.net_profit, 0)}</td><td>${fmt(f.eps)}</td></tr>`).join("")}
+        </tbody>
+      </table>
+    ` : `<div class="section-label">Fundamentals</div><p class="empty-note">Not entered yet — run fundamentals.py.</p>`;
+
+    return `
+      <article class="card">
+        <div class="card-head">
+          <h2>${sym}</h2>
+          <span class="as-of">${price ? "as of " + price.date : ""}</span>
+        </div>
+        ${priceBlock}
+        ${indBlock}
+        ${newsBlock}
+        ${fundBlock}
+      </article>`;
+  }
+
+  function renderCards(data){
+    const grid = document.getElementById("ledgerGrid");
+    grid.innerHTML = TICKERS.map(sym => renderCard(sym, data.tickers?.[sym])).join("");
+  }
+
+  function showError(msg){
+    document.getElementById("errorBanner").innerHTML =
+      `<div class="error-banner">${msg}</div>`;
+  }
+
+  async function load(){
+    document.getElementById("rawLink").href = CONFIG.dataUrl;
+    try{
+      const res = await fetch(CONFIG.dataUrl, { cache: "no-store" });
+      if (!res.ok) throw new Error(`Feed returned ${res.status}`);
+      const data = await res.json();
+
+      renderTickerStrip(data);
+      renderCards(data);
+
+      const when = data.generated_at ? new Date(data.generated_at) : null;
+      document.getElementById("updatedAt").textContent = when
+        ? `Updated ${when.toLocaleString()}`
+        : "Updated time unavailable";
+    } catch (err){
+      showError(
+        `Couldn't reach the data feed at <code>${CONFIG.dataUrl}</code>. ` +
+        `Check that <code>data/latest.json</code> exists on the <code>main</code> branch of your repo, ` +
+        `and that the GitHub Actions workflow has run at least once. (${err.message})`
+      );
+      document.getElementById("updatedAt").textContent = "Feed unavailable";
+    }
+  }
+
+  load();
+})();
+</script>
+</body>
+</html>

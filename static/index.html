@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Delayed Pakistan Stock Exchange quote dashboard">
+    <title>PSX Market Monitor</title>
+    <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="/static/app.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="/" aria-label="PSX Market Monitor home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32"><path d="M5 23.5 11.5 17l5 4.5L27 9"/><circle cx="27" cy="9" r="2.2"/></svg>
+          </span>
+          <span><strong>PSX</strong><small>Market Monitor</small></span>
+        </a>
+        <div class="header-meta">
+          <span class="delay-pill"><span class="pulse-dot"></span>15 min delayed</span>
+          <span class="clock" id="local-clock">--:--:-- PKT</span>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div>
+            <p class="eyebrow">Pakistan Stock Exchange</p>
+            <h1>Your market, at a glance.</h1>
+            <p class="hero-copy">A focused view of the companies you track, refreshed automatically throughout the trading day.</p>
+          </div>
+          <button class="refresh-button" id="refresh-button" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8.1 8.1 0 1 0-2.4 5.8M20 4v7h-7"/></svg>
+            <span>Refresh prices</span>
+          </button>
+        </section>
+
+        <div class="data-notice" role="note">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5m0-8h.01"/></svg>
+          <span><strong>PSX prices — approximately 15-minute delayed.</strong> Not a live tick-by-tick feed.</span>
+        </div>
+
+        <div class="status-banner hidden" id="status-banner" role="alert"></div>
+
+        <section class="summary-grid" aria-label="Market summary">
+          <article class="summary-card summary-primary">
+            <span class="summary-label">Companies tracked</span>
+            <strong id="tracked-count">—</strong>
+            <span class="summary-foot">Focused watchlist</span>
+          </article>
+          <article class="summary-card">
+            <span class="summary-label">Advancing</span>
+            <strong class="positive" id="advancing-count">—</strong>
+            <span class="summary-foot"><span class="mini-dot positive-bg"></span>Positive today</span>
+          </article>
+          <article class="summary-card">
+            <span class="summary-label">Declining</span>
+            <strong class="negative" id="declining-count">—</strong>
+            <span class="summary-foot"><span class="mini-dot negative-bg"></span>Negative today</span>
+          </article>
+          <article class="summary-card">
+            <span class="summary-label">Combined volume</span>
+            <strong id="total-volume">—</strong>
+            <span class="summary-foot">Across tracked stocks</span>
+          </article>
+        </section>
+
+        <section class="quotes-section" aria-labelledby="quotes-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Watchlist</p>
+              <h2 id="quotes-title">Latest quotes</h2>
+            </div>
+            <div class="update-meta">
+              <span id="last-updated">Waiting for market data…</span>
+              <span id="refresh-countdown">Next refresh in 15:00</span>
+            </div>
+          </div>
+
+          <div class="quote-grid" id="quote-grid" aria-live="polite" aria-busy="true">
+            <article class="quote-card skeleton-card"></article>
+            <article class="quote-card skeleton-card"></article>
+            <article class="quote-card skeleton-card"></article>
+            <article class="quote-card skeleton-card"></article>
+            <article class="quote-card skeleton-card"></article>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>Market data sourced through PSX public endpoints via <code>psxdata</code>.</p>
+        <p>For information only — not investment advice.</p>
+      </footer>
+    </div>
+  </body>
+</html>
