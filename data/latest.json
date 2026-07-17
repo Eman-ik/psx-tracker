@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-07-17T04:37:07.001286+00:00",
+  "generated_at": "2026-07-17T12:11:15.469645+00:00",
   "tickers": {
     "FFC": {
       "price": {
-        "date": "2026-07-16",
-        "open": 548.0,
-        "high": 555.0,
-        "low": 547.2,
-        "close": 551.28,
-        "volume": 1872699,
+        "date": "2026-07-17",
+        "open": 551.28,
+        "high": 561.45,
+        "low": 550.11,
+        "close": 551.96,
+        "volume": 2327318,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-07-16",
-        "rsi_14": 45.93851657883219,
-        "macd": 0.5698003564410783,
-        "macd_signal": 4.256082865308656,
-        "macd_hist": -3.6862825088675777,
-        "sma_20": 562.5705,
-        "sma_50": 547.0710000000001,
-        "bb_lower": 542.0893626190003,
-        "bb_mid": 562.5705,
-        "bb_upper": 583.0516373809998
+        "date": "2026-07-17",
+        "rsi_14": 46.37610413210362,
+        "macd": 0.04723731469186987,
+        "macd_signal": 3.4127821312536755,
+        "macd_hist": -3.3655448165618056,
+        "sma_20": 561.9644999999998,
+        "sma_50": 548.0224000000002,
+        "bb_lower": 540.9456197904955,
+        "bb_mid": 561.9644999999998,
+        "bb_upper": 582.9833802095042
       },
       "fundamentals": [
         {
@@ -55,8 +55,8 @@
           "headline": "FFC delivers strong profit, yet sends PSX sliding - Mettis Global",
           "source": "Mettis Global",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNjlJc0xDQktraTJhOVRFVHRGR2dOOEVkdEZIOXFqNW11NlQ0YVloQTZlM2ptazloQzRJbE5QRTVIV29yWE9xcmlkMGtnZEhkdDd4WHgtZUc3Y0NiWHdsZTUzckJyQllGN2hWRE9JaXllMDB3RzlLX1NnLXZ3VWJsSHpyLThwR1E?oc=5",
-          "sentiment_label": "positive",
-          "sentiment_score": 1.0
+          "sentiment_label": "mixed",
+          "sentiment_score": 0.333
         },
         {
           "published": "Tue, 11 Nov 2025 08:00:00 GMT",
@@ -71,32 +71,32 @@
           "headline": "Mari Energies inks agreements with major fertilizer firms to boost gas supply - Business Recorder",
           "source": "Business Recorder",
           "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jSzl3aXBKRENxTnhUU2ppejRHN0hPZl9zb3lXOFl2bjBMR3NkYlJoRHM4VFBEekgyQ191QXJzbU1NUkN6UjNTb0JaWThBSTZaNnBNR2l30gFWQVVfeXFMTmNLOXdpcEpEQ3FOeFRTaml6NEc3SE9mX3NveVc4WXZuMExHc2RiUmhEczhUUER6SDJDX3VBcnNtTU1SQ3pSM1NvQlpZOEFJNlo2cE1HaXc?oc=5",
-          "sentiment_label": "neutral",
-          "sentiment_score": 0.0
+          "sentiment_label": "positive",
+          "sentiment_score": 1.0
         }
       ]
     },
     "FATIMA": {
       "price": {
-        "date": "2026-07-16",
-        "open": 154.0,
-        "high": 165.0,
-        "low": 154.0,
-        "close": 162.64,
-        "volume": 2944419,
+        "date": "2026-07-17",
+        "open": 162.0,
+        "high": 162.1,
+        "low": 156.73,
+        "close": 157.68,
+        "volume": 1270298,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-07-16",
-        "rsi_14": 56.31843409507253,
-        "macd": 2.7997366689132264,
-        "macd_signal": 4.314008103112213,
-        "macd_hist": -1.514271434198987,
-        "sma_20": 161.83599999999998,
-        "sma_50": 147.5862,
-        "bb_lower": 154.3168219934269,
-        "bb_mid": 161.83599999999998,
-        "bb_upper": 169.35517800657306
+        "date": "2026-07-17",
+        "rsi_14": 51.48535198550697,
+        "macd": 2.5365778907653294,
+        "macd_signal": 3.972179040699818,
+        "macd_hist": -1.4356011499344885,
+        "sma_20": 161.64999999999998,
+        "sma_50": 148.1554,
+        "bb_lower": 153.89982445021872,
+        "bb_mid": 161.64999999999998,
+        "bb_upper": 169.40017554978124
       },
       "fundamentals": [
         {
@@ -130,8 +130,8 @@
           "headline": "FATIMA plans up to around Rs70bn diversification investments - Mettis Global",
           "source": "Mettis Global",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaEUzdXRQM3lkbEdzS2MwYk5IOTN0VjRleVNoVWJ0emwwZVhibm9wcUVnYlEzcXdycEEtNEhzYXB5YWduOHg0WUJHY1dMcS16ZUl5N3BBUUVsX2gzLTRncjJPUlNzeWs4Unh4SWQ5czBvZ1dZVXY2Rkl2VVZrUllXV01iWXJHbG1wdFNoa0tKTQ?oc=5",
-          "sentiment_label": "positive",
-          "sentiment_score": 1.0
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
         },
         {
           "published": "Thu, 11 May 2023 18:34:10 GMT",
@@ -153,25 +153,25 @@
     },
     "EFERT": {
       "price": {
-        "date": "2026-07-16",
-        "open": 192.51,
-        "high": 194.7,
+        "date": "2026-07-17",
+        "open": 194.0,
+        "high": 194.0,
         "low": 192.0,
-        "close": 193.95,
-        "volume": 978826,
+        "close": 192.22,
+        "volume": 830997,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-07-16",
-        "rsi_14": 40.38949647454268,
-        "macd": -2.056151795038801,
-        "macd_signal": -1.380003068346273,
-        "macd_hist": -0.6761487266925279,
-        "sma_20": 197.47950000000003,
-        "sma_50": 198.6696,
-        "bb_lower": 190.60948437142102,
-        "bb_mid": 197.47950000000003,
-        "bb_upper": 204.34951562857904
+        "date": "2026-07-17",
+        "rsi_14": 39.67011943038989,
+        "macd": -2.0639790792127997,
+        "macd_signal": -1.504672914394226,
+        "macd_hist": -0.5593061648185738,
+        "sma_20": 197.039,
+        "sma_50": 198.55639999999997,
+        "bb_lower": 190.23180906532428,
+        "bb_mid": 197.039,
+        "bb_upper": 203.8461909346757
       },
       "fundamentals": [
         {
