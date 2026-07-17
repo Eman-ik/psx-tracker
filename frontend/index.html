@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>PSX Tracker — Intraday Snapshots</title>
+<style>
+  :root {
+    --bg: #0b0f14;
+    --card: #121824;
+    --border: #1f2937;
+    --text: #e5e7eb;
+    --muted: #8b98a9;
+    --green: #22c55e;
+    --red: #ef4444;
+    --amber: #f59e0b;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding: 32px 16px 64px;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; }
+  h1 { font-size: 1.4rem; margin-bottom: 4px; }
+  .sub { color: var(--muted); font-size: 0.9rem; margin-bottom: 20px; }
+  .status-bar {
+    display: flex; align-items: center; gap: 10px;
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 10px; padding: 10px 14px; margin-bottom: 20px;
+    font-size: 0.85rem; color: var(--muted);
+  }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--amber); flex-shrink: 0; }
+  .dot.live { background: var(--green); }
+  .dot.down { background: var(--red); }
+  table { width: 100%; border-collapse: collapse; }
+  thead th {
+    text-align: left; font-size: 0.75rem; text-transform: uppercase;
+    letter-spacing: 0.04em; color: var(--muted); padding: 8px 12px; font-weight: 600;
+  }
+  tbody tr { background: var(--card); border: 1px solid var(--border); }
+  tbody td { padding: 14px 12px; font-size: 0.95rem; }
+  tbody tr td:first-child { border-radius: 10px 0 0 10px; }
+  tbody tr td:last-child { border-radius: 0 10px 10px 0; }
+  tbody tr + tr { }
+  tbody tr { display: table-row; }
+  .row-spacer { height: 8px; }
+  .symbol { font-weight: 700; }
+  .price { font-variant-numeric: tabular-nums; font-weight: 600; }
+  .change.up { color: var(--green); }
+  .change.down { color: var(--red); }
+  .change.flat { color: var(--muted); }
+  .badge {
+    display: inline-block; font-size: 0.7rem; padding: 2px 8px;
+    border-radius: 999px; border: 1px solid var(--border); color: var(--muted);
+  }
+  .badge.stale { color: var(--red); border-color: var(--red); }
+  .updated { color: var(--muted); font-size: 0.75rem; }
+  footer { margin-top: 28px; color: var(--muted); font-size: 0.78rem; line-height: 1.5; }
+  footer a { color: #93c5fd; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>PSX Tracker</h1>
+  <div class="sub">Approximately real-time watchlist &middot; not for trading decisions</div>
+
+  <div class="status-bar">
+    <span class="dot" id="statusDot"></span>
+    <span id="statusText">Connecting…</span>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Symbol</th>
+        <th>Price (PKR)</th>
+        <th title="Point move reconstructed from price and source percentage change">Change (derived)</th>
+        <th>30D Avg Volume</th>
+        <th>Fetched</th>
+      </tr>
+    </thead>
+    <tbody id="quoteBody">
+      <!-- rows injected by JS, one per watched symbol -->
+    </tbody>
+  </table>
+
+  <footer>
+    Data source: unofficial intraday snapshots (delayed, not tick-by-tick). PSX's own data-vending
+    policy requires authorization for public redistribution of live/delayed market data — see the
+    project README before deploying this publicly. This demo defaults to a synthetic "mock" provider
+    when no live API is configured.
+  </footer>
+</div>
+
+<script>
+(function () {
+  // Point this at your deployed live_api instance. Left blank, the page
+  // runs in fully offline demo mode using synthetic data so it renders
+  // something meaningful even with no backend at all.
+  const LIVE_API_BASE = "http://127.0.0.1:8003";// e.g. "https://psx-live-api.fly.dev"
+  const SYMBOLS = ["OGDC", "PPL", "HBL", "ENGRO", "LUCK"];
+  const STALE_AFTER_MS = 20 * 60 * 1000;
+
+  const bodyEl = document.getElementById("quoteBody");
+  const dotEl = document.getElementById("statusDot");
+  const statusEl = document.getElementById("statusText");
+
+  const rows = {};
+  SYMBOLS.forEach((sym) => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td class="symbol">${sym}</td>
+      <td class="price" data-f="price">—</td>
+      <td class="change" data-f="change">—</td>
+      <td data-f="volume_avg_30d">—</td>
+      <td class="updated" data-f="updated">—</td>
+    `;
+    bodyEl.appendChild(tr);
+    rows[sym] = tr;
+  });
+
+  function setStatus(mode, text) {
+    dotEl.className = "dot " + mode;
+    statusEl.textContent = text;
+  }
+
+  function fmtNum(n) {
+    return n == null ? "—" : Number(n).toLocaleString();
+  }
+
+  function renderQuote(q) {
+    const tr = rows[q.symbol];
+    if (!tr) return;
+    tr.querySelector('[data-f="price"]').textContent = q.price == null ? "—" : Number(q.price).toFixed(2);
+
+    const changeEl = tr.querySelector('[data-f="change"]');
+    if (q.change_points_derived == null) {
+      changeEl.textContent = "—";
+      changeEl.className = "change flat";
+    } else {
+      const change = Number(q.change_points_derived);
+      const sign = change > 0 ? "+" : "";
+      const pct = q.change_pct != null ? ` (${Number(q.change_pct) > 0 ? "+" : ""}${Number(q.change_pct).toFixed(2)}%)` : "";
+      changeEl.textContent = `~${sign}${change.toFixed(2)}${pct}`;
+      changeEl.className = "change " + (change > 0 ? "up" : change < 0 ? "down" : "flat");
+    }
+
+    tr.querySelector('[data-f="volume_avg_30d"]').textContent = fmtNum(q.volume_avg_30d);
+
+    const ts = q.source_timestamp || q.fetched_at;
+    const badgeClass = q.stale ? "badge stale" : "badge";
+    const label = q.stale ? "Stale" : "Delayed";
+    const time = ts ? new Date(ts).toLocaleTimeString() : "—";
+    tr.querySelector('[data-f="updated"]').innerHTML = `<span class="${badgeClass}">${label}</span> ${time}`;
+  }
+
+  function renderPayload(payload) {
+    (payload.quotes || []).forEach(renderQuote);
+  }
+
+  // --- Offline / no-backend demo mode -------------------------------
+  function startOfflineDemo() {
+    setStatus("live", "Offline demo mode — synthetic data, no backend configured");
+    const base = { OGDC: 145, PPL: 120, HBL: 195, ENGRO: 310, LUCK: 780 };
+    function tick() {
+      const now = new Date().toISOString();
+      const quotes = SYMBOLS.map((sym) => {
+        const b = base[sym];
+        const price = +(b + b * (Math.random() - 0.5) * 0.01).toFixed(2);
+        const change = +(price - b).toFixed(2);
+        return {
+          symbol: sym,
+          price,
+          change_points_derived: change,
+          change_pct: +((change / b) * 100).toFixed(2),
+          volume_avg_30d: Math.floor(Math.random() * 2_000_000) + 50_000,
+          source_timestamp: null,
+          fetched_at: now,
+          stale: false,
+        };
+      });
+      renderPayload({ quotes });
+    }
+    tick();
+    setInterval(tick, 5000);
+  }
+
+  // --- Real backend mode ----------------------------------------------
+  async function refreshViaRest() {
+    try {
+      const res = await fetch(`${LIVE_API_BASE}/api/v1/quotes?symbols=${SYMBOLS.join(",")}`, { cache: "no-store" });
+      if (!res.ok) throw new Error(`REST failed: ${res.status}`);
+      renderPayload(await res.json());
+      setStatus("live", "Connected (REST)");
+    } catch (err) {
+      setStatus("down", "Live API unreachable — showing last known values");
+      console.warn(err);
+    }
+  }
+
+  function connectWebSocket() {
+    const proto = location.protocol === "https:" ? "wss" : "ws";
+    const wsBase = LIVE_API_BASE.replace(/^https?:/, proto + ":");
+    const ws = new WebSocket(`${wsBase}/ws/quotes?symbols=${SYMBOLS.join(",")}`);
+    let restTimer;
+
+    ws.onopen = () => {
+      clearInterval(restTimer);
+      setStatus("live", "Connected (WebSocket)");
+      setInterval(() => ws.readyState === WebSocket.OPEN && ws.send("ping"), 25000);
+    };
+    ws.onmessage = (event) => renderPayload(JSON.parse(event.data));
+    ws.onclose = () => {
+      setStatus("down", "WebSocket dropped — falling back to polling");
+      restTimer = setInterval(refreshViaRest, 30000);
+      setTimeout(connectWebSocket, 5000);
+    };
+    ws.onerror = () => ws.close();
+  }
+
+  (async function init() {
+    if (!LIVE_API_BASE) {
+      startOfflineDemo();
+      return;
+    }
+    await refreshViaRest();
+    connectWebSocket();
+  })();
+})();
+</script>
+</body>
+</html>

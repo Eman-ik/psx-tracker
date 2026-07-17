@@ -1,0 +1,37 @@
+name: live-api-ci
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "live_api/**"
+      - ".github/workflows/live-api-ci.yml"
+  pull_request:
+    paths:
+      - "live_api/**"
+      - ".github/workflows/live-api-ci.yml"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r live_api/requirements.txt
+
+      - name: Run tests (mock provider — no external network needed)
+        env:
+          PROVIDER: mock
+        run: pytest -q live_api/tests
+
+      - name: Build image
+        run: docker build -f live_api/Dockerfile -t psx-live-api .

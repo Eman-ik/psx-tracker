@@ -1,0 +1,21 @@
+{
+  "_source": "https://www.psx.com.pk/psx/exchange/general/calendar-holidays (fetched 2026-07-17)",
+  "_note": "PSX reserves the right to modify these dates, especially the moon-sighting-dependent Islamic holidays (marked * on the PSX page). Re-check this list periodically, particularly close to Eid/Ashura/Milad-un-Nabi.",
+  "dates": [
+    { "date": "2026-02-05", "name": "Kashmir Day" },
+    { "date": "2026-03-20", "name": "Juma-Tul-Wida" },
+    { "date": "2026-03-21", "name": "Eid-ul-Fitr (day 1)" },
+    { "date": "2026-03-22", "name": "Eid-ul-Fitr (day 2)" },
+    { "date": "2026-03-23", "name": "Eid-ul-Fitr (day 3) / Pakistan Day" },
+    { "date": "2026-05-01", "name": "Labour Day" },
+    { "date": "2026-05-26", "name": "Eid-ul-Azha (day 1)" },
+    { "date": "2026-05-27", "name": "Eid-ul-Azha (day 2)" },
+    { "date": "2026-05-28", "name": "Eid-ul-Azha (day 3) / Youm-e-Takbeer" },
+    { "date": "2026-06-24", "name": "Ashura (day 1)" },
+    { "date": "2026-06-25", "name": "Ashura (day 2)" },
+    { "date": "2026-08-14", "name": "Independence Day" },
+    { "date": "2026-08-25", "name": "Eid Milad-un-Nabi (SAW)" },
+    { "date": "2026-11-09", "name": "Allama Iqbal Day" },
+    { "date": "2026-12-25", "name": "Quaid-e-Azam Day / Christmas" }
+  ]
+}

@@ -116,6 +116,21 @@ setInterval(() => loadQuotes().catch(showStaleDataWarning), REFRESH_INTERVAL);
 Obtain written clarification or a suitable licence from PSX before deploying a
 public or commercial site.
 
+### Enhanced cached API
+
+The newer service under [`live_api/`](live_api/) provides a stable normalized
+schema, last-good caching, REST, WebSocket and SSE delivery, stale-data flags,
+market-hours-aware polling, Docker deployment, and a deterministic mock provider
+for development and CI. Its quote contract mirrors the actual screener fields:
+`price`, `change_pct`, `change_1y_pct`, `pe_ratio`, `dividend_yield`,
+`market_cap`, `free_float`, and `volume_avg_30d`.
+
+Because `psxdata.quote()` does not supply an absolute point change, today's
+volume, or an exchange timestamp, the service labels the reconstructed value as
+`change_points_derived`, leaves `source_timestamp` null, and records retrieval
+time separately as `fetched_at`. See [`live_api/README.md`](live_api/README.md)
+for configuration and deployment details.
+
 ## Static dashboard
 
 Open `site/index.html` directly in a browser. It reads the published
