@@ -1,0 +1,200 @@
+{
+  "generated_at": "2026-07-17T04:30:16.751756+00:00",
+  "tickers": {
+    "FFC": {
+      "price": {
+        "date": "2026-07-17",
+        "open": 551.28,
+        "high": 555.0,
+        "low": 550.11,
+        "close": 554.11,
+        "volume": 112292,
+        "is_anomaly": 0
+      },
+      "indicators": {
+        "date": "2026-07-17",
+        "rsi_14": 47.968662718612514,
+        "macd": 0.2187472862018467,
+        "macd_signal": 3.4470841255556706,
+        "macd_hist": -3.228336839353824,
+        "sma_20": 562.0719999999999,
+        "sma_50": 548.0654000000002,
+        "bb_lower": 541.2474683126285,
+        "bb_mid": 562.0719999999999,
+        "bb_upper": 582.8965316873713
+      },
+      "recent_news": [
+        {
+          "published": "Thu, 11 May 2023 18:34:10 GMT",
+          "headline": "FFC Stock Price and Chart \u2014 PSX:FFC - TradingView",
+          "source": "TradingView",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5PVVY4VmtLS1ptQ2xLSVFBbkNORThhcnBiN2JiaXlDd1VzMm1ncnptYUhBNzVDeUw4Wk9aT2pHZVM1WkxxY2hoZ0gzNmtZdy05b1BnclJEVQ?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
+        },
+        {
+          "published": "Wed, 28 Jan 2026 08:00:00 GMT",
+          "headline": "FFC completes share issuance to Fauji Foundation - Mettis Global",
+          "source": "Mettis Global",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOODBDODFUMmxkZmx3V0JDUzM2TUZ1OFNjTnR5OUszSW1JOEt2bzJJV3B4WXp1Zkttd3puU2xUenkxUFJ2MmREVWQ5YU1ZQ1ZnRUZueUFrOUNqM0piNmtoNENNekltQ0hHRlEwUlBHME5BM0xMcml4ejU3RkJOMUtlQWg2MHlvd3c?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
+        },
+        {
+          "published": "Thu, 29 Jan 2026 08:00:00 GMT",
+          "headline": "FFC delivers strong profit, yet sends PSX sliding - Mettis Global",
+          "source": "Mettis Global",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNjlJc0xDQktraTJhOVRFVHRGR2dOOEVkdEZIOXFqNW11NlQ0YVloQTZlM2ptazloQzRJbE5QRTVIV29yWE9xcmlkMGtnZEhkdDd4WHgtZUc3Y0NiWHdsZTUzckJyQllGN2hWRE9JaXllMDB3RzlLX1NnLXZ3VWJsSHpyLThwR1E?oc=5",
+          "sentiment_label": "mixed",
+          "sentiment_score": 0.333
+        },
+        {
+          "published": "Tue, 11 Nov 2025 08:00:00 GMT",
+          "headline": "FFC to acquire remaining 25% stake in FPCL to gain ownership - Mettis Global",
+          "source": "Mettis Global",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaUtwNjBwcEwyNjMzMmp1MTJhaUJkWDZ5LXNVT1JiWmxTbGNXOHgwdF9CVEFEZ0tFZENuMDhydlBpZ1VNVFh1YV9uTXV0ZEVwTEhmOTN0VTZBdl9NU1FZVGJSYTdRZ0JMU1VHSVZ3OUQtMlVvYzNBaFZiUGViNHlweHRndkx5VGYtOXA0R0M2ZEFZUU45Ui1uNl91ak8tc0k3QjVXMjNLcXVRUElaWHM1XzRfd0cyenZtc1U4?oc=5",
+          "sentiment_label": "positive",
+          "sentiment_score": 1.0
+        },
+        {
+          "published": "Tue, 24 Mar 2026 07:00:00 GMT",
+          "headline": "Mari Energies inks agreements with major fertilizer firms to boost gas supply - Business Recorder",
+          "source": "Business Recorder",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jSzl3aXBKRENxTnhUU2ppejRHN0hPZl9zb3lXOFl2bjBMR3NkYlJoRHM4VFBEekgyQ191QXJzbU1NUkN6UjNTb0JaWThBSTZaNnBNR2l30gFWQVVfeXFMTmNLOXdpcEpEQ3FOeFRTaml6NEc3SE9mX3NveVc4WXZuMExHc2RiUmhEczhUUER6SDJDX3VBcnNtTU1SQ3pSM1NvQlpZOEFJNlo2cE1HaXc?oc=5",
+          "sentiment_label": "positive",
+          "sentiment_score": 1.0
+        }
+      ]
+    },
+    "FATIMA": {
+      "price": {
+        "date": "2026-07-17",
+        "open": 162.0,
+        "high": 162.0,
+        "low": 160.0,
+        "close": 160.6,
+        "volume": 57909,
+        "is_anomaly": 0
+      },
+      "indicators": {
+        "date": "2026-07-17",
+        "rsi_14": 54.76085581362343,
+        "macd": 2.769512363699789,
+        "macd_signal": 4.01876593528671,
+        "macd_hist": -1.2492535715869204,
+        "sma_20": 161.796,
+        "sma_50": 148.21379999999996,
+        "bb_lower": 154.25348778415898,
+        "bb_mid": 161.796,
+        "bb_upper": 169.338512215841
+      },
+      "recent_news": [
+        {
+          "published": "Thu, 25 Jun 2026 14:53:48 GMT",
+          "headline": "FATIMA Forecast \u2014 Price Target \u2014 Prediction for 2027 - TradingView",
+          "source": "TradingView",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBEODl0Sk80b04zVE9fMGI5cXlTUXdnVVRGcUF1LUpGdjBlWkJ4YktZMWp2bzZtRjdfN0trV1N2dXBXdUdEX2NHcFMwT2lfTDhUTE5ON1RHYUpxTGltbTd2U2hsdFplS3ZIZDQ0RFZNdHVScGU2ejNPQw?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
+        },
+        {
+          "published": "Fri, 23 Aug 2024 07:00:00 GMT",
+          "headline": "FATIMA announces plan to acquire stake in Agritech Limited - Mettis Global",
+          "source": "Mettis Global",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSXZmT1QwX2Zud2djc0VIeDRCenF0UGxPc2VFQ3haZUtueU5wcDJyeG1rakVlS0ZzM28yQ1E2YjR6Wk9ob0dXVkdPVzRPdGFsR1hoUDFjMWpUWWs3R19qLWhKTWdGU2FBdmk3ZjVHWklkN2FlUFM1UWJNWHlhRWpsc3pZQXlKb3A3XzE2cFJ3?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
+        },
+        {
+          "published": "Mon, 09 Mar 2026 07:00:00 GMT",
+          "headline": "FATIMA plans up to around Rs70bn diversification investments - Mettis Global",
+          "source": "Mettis Global",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaEUzdXRQM3lkbEdzS2MwYk5IOTN0VjRleVNoVWJ0emwwZVhibm9wcUVnYlEzcXdycEEtNEhzYXB5YWduOHg0WUJHY1dMcS16ZUl5N3BBUUVsX2gzLTRncjJPUlNzeWs4Unh4SWQ5czBvZ1dZVXY2Rkl2VVZrUllXV01iWXJHbG1wdFNoa0tKTQ?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
+        },
+        {
+          "published": "Thu, 11 May 2023 18:34:10 GMT",
+          "headline": "FFC Stock Price and Chart \u2014 PSX:FFC - TradingView",
+          "source": "TradingView",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5PVVY4VmtLS1ptQ2xLSVFBbkNORThhcnBiN2JiaXlDd1VzMm1ncnptYUhBNzVDeUw4Wk9aT2pHZVM1WkxxY2hoZ0gzNmtZdy05b1BnclJEVQ?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
+        },
+        {
+          "published": "Mon, 28 Jul 2025 07:00:00 GMT",
+          "headline": "Fatima Fertilizer Board approves 100% acquisition of Fatima Petroleum - Mettis Global",
+          "source": "Mettis Global",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOR0F0V2xWNjdrQUQ2ZDMxejZnd01TTk5PUndYS1djbTExMTJfb2VDQi1wTmRvY1RKQUduWkM0bVktZ3VjNHNVVFlTNlcxS2xzd2piY3ljTy13TU1qbGh5Rnc5M08zMFE0WFp4TFItWGcyZW9uYzJBZE9vRmlYNEd3SlFYNldzQ1ZMejdBLUVqUjRQeF9kS3pWLVEyUklxZGZVVGc?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
+        }
+      ]
+    },
+    "EFERT": {
+      "price": {
+        "date": "2026-07-17",
+        "open": 194.0,
+        "high": 194.0,
+        "low": 192.5,
+        "close": 192.9,
+        "volume": 10345,
+        "is_anomaly": 0
+      },
+      "indicators": {
+        "date": "2026-07-17",
+        "rsi_14": 40.82524228660219,
+        "macd": -2.0097340649678017,
+        "macd_signal": -1.4938239115452263,
+        "macd_hist": -0.5159101534225754,
+        "sma_20": 197.073,
+        "sma_50": 198.56999999999996,
+        "bb_lower": 190.3610276645641,
+        "bb_mid": 197.073,
+        "bb_upper": 203.78497233543592
+      },
+      "recent_news": [
+        {
+          "published": "Thu, 25 Jun 2026 19:01:36 GMT",
+          "headline": "EFERT Forecast \u2014 Price Target \u2014 Prediction for 2027 - TradingView",
+          "source": "TradingView",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE03UjlVOGZUenhOZUlWYzYxTUlIRWRBbkhkbjZBaGZMVUNVZG1oeXBjUU5Ec0k1eHNmdi1zWmdZUHRoLUtwQ3RzVWtrZU9vcnVicU1CZkNmZ2ZTY2ttMDc1cVdpQ3MwUlFrcmlTQkZlQnFWeGpsQlpZ?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
+        },
+        {
+          "published": "Mon, 08 May 2023 03:21:11 GMT",
+          "headline": "EFERT Stock Price and Chart \u2014 PSX:EFERT - TradingView",
+          "source": "TradingView",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnVlpNUTQ0M2FJVF9Wanl3cm1PUjY0b3NWVDJhSzdQa3Z0dFdNa2d0LV9uZjZvaGxyemVtNHMzSTVKQU9pSno5d3VpRGltQkMzRWp3NFZQQUlUZw?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
+        },
+        {
+          "published": "Wed, 30 Jul 2025 07:00:00 GMT",
+          "headline": "EFERT lifts half-year dividend to Rs6.5 per share despite profit dip - Mettis Global",
+          "source": "Mettis Global",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWDR1bEwxaVJPa2tVU1E1ZWZkaFFCOFN3X3lvNDl4bmtVdW9lRzJiR2lRX2VKRUZPcGRtNFhyaFRZSXdLajBwUHc1NDdaekx3d3JTVnJJUTFHN245eTlMR3lBamJuLXhmY2tEZVNDWjhxaElmMlhBOGl3RDRRazJXNkxQeS0zZXhLendZLVpnc3hwNWN4QVdOelhLQjFsUFU?oc=5",
+          "sentiment_label": "positive",
+          "sentiment_score": 1.0
+        },
+        {
+          "published": "Tue, 05 Aug 2025 07:00:00 GMT",
+          "headline": "EFERT on track to finish Phase 1 of gas facility by end-August - Mettis Global",
+          "source": "Mettis Global",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSkxRay1oanVLYmMyTF9hY3gwSmxSRG9TdE5JUW1JejJXX2ZVV0oxdDd5c2lnQ0hybUdWOHVyX2FOaVFRdUNPMmpKSWlNSWdxeDE1eUJpdG9kN1VjODdBSE5vMlJUa3pEejVUa213bElZTVFLQXVLNldDaEVqeFJqeEtySkVONXNzSzFGa1QyUXhfRUczY2p1dw?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
+        },
+        {
+          "published": "Tue, 14 Jan 2025 06:51:07 GMT",
+          "headline": "ENGROH Stock Price and Chart \u2014 PSX:ENGROH - TradingView",
+          "source": "TradingView",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CenI3ajBFTTlJeXRMdVFxbXpyaFNUSk1rYkQ1YmMxX2liMmdReWptcjlDUmhPdHVwT1NqMkpYbWVVX18ycC1yc3VQQXJqbXp1eGp3eXBzQXk2X1E?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
+        }
+      ]
+    }
+  }
+}
