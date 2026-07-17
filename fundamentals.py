@@ -30,18 +30,28 @@ from db import get_connection, init_db
 # ---------------------------------------------------------------------
 FUNDAMENTALS = {
     "FFC": {
-        # "2025-Q4": {
-        #     "revenue": 0.0,
-        #     "net_profit": 0.0,
-        #     "eps": 0.0,
-        #     "source_url": "https://www.fauji.com.pk/...",
-        # },
+        "2026-Q1": {
+            "revenue": 95_293.909,
+            "net_profit": 17_476.826,
+            "eps": 12.14,
+            "source_url": "https://dps.psx.com.pk/download/document/276333.pdf",
+        },
     },
     "FATIMA": {
-        # "2025-Q4": {"revenue": 0.0, "net_profit": 0.0, "eps": 0.0, "source_url": ""},
+        "2026-Q1": {
+            "revenue": 27_929.240,
+            "net_profit": 4_189.330,
+            "eps": 1.99,
+            "source_url": "https://www.psx.com.pk/psx/files-attachment/?file=275979.pdf",
+        },
     },
     "EFERT": {
-        # "2025-Q4": {"revenue": 0.0, "net_profit": 0.0, "eps": 0.0, "source_url": ""},
+        "2026-Q1": {
+            "revenue": 26_338.683,
+            "net_profit": 2_891.066,
+            "eps": 2.17,
+            "source_url": "https://dps.psx.com.pk/download/document/276079.pdf",
+        },
     },
 }
 # ---------------------------------------------------------------------

@@ -13,8 +13,11 @@ psx-tracker/
 ├── fetch_data.py      # pulls OHLCV from PSX via the `psxdata` library
 ├── indicators.py       # RSI/MACD/SMA/Bollinger Bands via pandas-ta
 ├── sentiment.py         # news headlines via Google News RSS + basic scoring
+├── fundamentals.py      # manually maintained quarterly company results
 ├── view.py               # quick CLI to eyeball the latest numbers
 ├── export_snapshot.py     # dumps latest data to data/latest.json (git-friendly)
+├── site/
+│   └── index.html          # deployable static dashboard (no server required)
 ├── .github/workflows/
 │   └── update.yml           # daily automation — see "Automating it" below
 ├── requirements.txt
@@ -33,6 +36,8 @@ python db.py              # creates the empty SQLite database
 python fetch_data.py      # pulls price history for FFC, FATIMA, EFERT
 python indicators.py      # computes RSI/MACD/SMA/Bollinger Bands
 python sentiment.py       # pulls recent news + scores it
+python fundamentals.py    # stores maintained quarterly fundamentals
+python export_snapshot.py # rebuilds data/latest.json
 python view.py            # print a quick summary of everything above
 ```
 
@@ -111,6 +116,13 @@ setInterval(() => loadQuotes().catch(showStaleDataWarning), REFRESH_INTERVAL);
 Obtain written clarification or a suitable licence from PSX before deploying a
 public or commercial site.
 
+## Static dashboard
+
+Open `site/index.html` directly in a browser. It reads the published
+`data/latest.json` from this repository's `main` branch, so no local web server
+is required. The same `site/` directory can be deployed with GitHub Pages,
+Netlify, or Vercel.
+
 ## Automating the daily workflow (free, via GitHub Actions)
 
 `.github/workflows/update.yml` runs the full pipeline every weekday at
@@ -138,14 +150,11 @@ of rebuilding it, or move to Supabase's free Postgres tier.
 1. **Get `fetch_data.py` running for real** and confirm the row counts
    in `data/psx_tracker.db` look right (`python view.py`).
 2. **Turn on the GitHub Actions workflow** above.
-3. **Fundamentals table** — for just 3 companies, hand-enter quarterly
-   EPS/revenue/net profit into the `fundamentals` table from each
-   company's own investor-relations PDF. Not worth automating at this scale.
+3. **Maintain fundamentals** — add each new quarter to `fundamentals.py`
+   using the company's investor-relations filing as the source.
 4. **Upgrade sentiment scoring** to FinBERT once the pipeline is stable
    (see the docstring at the top of `sentiment.py` — it's a ~5 line swap).
-5. **Build the frontend last**, once you trust the numbers underneath it —
-   have it read `data/latest.json` straight from GitHub rather than
-   standing up a backend.
+5. **Deploy the static dashboard** from `site/` once the snapshot looks right.
 
 ## Gitignore
 

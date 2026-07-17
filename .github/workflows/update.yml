@@ -28,6 +28,7 @@ jobs:
           python fetch_data.py
           python indicators.py
           python sentiment.py
+          python fundamentals.py
           python export_snapshot.py
 
       - name: Commit updated snapshot

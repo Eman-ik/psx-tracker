@@ -1,5 +1,5 @@
 """
-Exports the latest row per ticker (price + indicators + last 5 headlines)
+Exports the latest row per ticker (price + indicators + fundamentals + headlines)
 to data/latest.json — a small, git-friendly snapshot.
 
 Why this exists: the SQLite db is treated as ephemeral working storage
@@ -25,7 +25,11 @@ def main():
 
     for symbol in TICKERS:
         price = pd.read_sql_query(
-            "SELECT * FROM prices WHERE symbol=? ORDER BY date DESC LIMIT 1", conn, params=(symbol,)
+            "SELECT * FROM prices WHERE symbol=? "
+            "AND date <= COALESCE((SELECT MAX(date) FROM indicators WHERE symbol=?), '9999-12-31') "
+            "ORDER BY date DESC LIMIT 1",
+            conn,
+            params=(symbol, symbol),
         )
         ind = pd.read_sql_query(
             "SELECT * FROM indicators WHERE symbol=? ORDER BY date DESC LIMIT 1", conn, params=(symbol,)
@@ -35,10 +39,17 @@ def main():
             "FROM news_sentiment WHERE symbol=? ORDER BY fetched_on DESC LIMIT 5",
             conn, params=(symbol,),
         )
+        fundamentals = pd.read_sql_query(
+            "SELECT period, revenue, net_profit, eps, source_url, entered_on "
+            "FROM fundamentals WHERE symbol=? ORDER BY period DESC",
+            conn,
+            params=(symbol,),
+        )
 
         entry = {
             "price": price.drop(columns=["symbol"]).to_dict("records")[0] if not price.empty else None,
             "indicators": ind.drop(columns=["symbol"]).to_dict("records")[0] if not ind.empty else None,
+            "fundamentals": fundamentals.to_dict("records") if not fundamentals.empty else [],
             "recent_news": news.to_dict("records") if not news.empty else [],
         }
         snapshot["tickers"][symbol] = entry
