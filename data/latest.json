@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-07-20T13:08:35.446547+00:00",
+  "generated_at": "2026-07-21T12:24:53.094800+00:00",
   "tickers": {
     "FFC": {
       "price": {
-        "date": "2026-07-20",
-        "open": 549.5,
-        "high": 553.49,
-        "low": 543.5,
-        "close": 551.43,
-        "volume": 867773,
+        "date": "2026-07-21",
+        "open": 553.22,
+        "high": 556.0,
+        "low": 549.51,
+        "close": 550.21,
+        "volume": 684161,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-07-20",
-        "rsi_14": 46.00231026994745,
-        "macd": -0.3974957539899151,
-        "macd_signal": 2.650726554204957,
-        "macd_hist": -3.0482223081948723,
-        "sma_20": 561.1395,
-        "sma_50": 548.8678000000001,
-        "bb_lower": 539.8134877392487,
-        "bb_mid": 561.1395,
-        "bb_upper": 582.4655122607513
+        "date": "2026-07-21",
+        "rsi_14": 45.101166016181,
+        "macd": -0.8387254145925453,
+        "macd_signal": 1.952836160445457,
+        "macd_hist": -2.7915615750380023,
+        "sma_20": 560.613,
+        "sma_50": 549.5636000000001,
+        "bb_lower": 538.7327295312004,
+        "bb_mid": 560.613,
+        "bb_upper": 582.4932704687997
       },
       "fundamentals": [
         {
@@ -30,7 +30,7 @@
           "net_profit": 17476.826,
           "eps": 12.14,
           "source_url": "https://dps.psx.com.pk/download/document/276333.pdf",
-          "entered_on": "2026-07-20"
+          "entered_on": "2026-07-21"
         }
       ],
       "recent_news": [
@@ -78,25 +78,25 @@
     },
     "FATIMA": {
       "price": {
-        "date": "2026-07-20",
-        "open": 156.0,
-        "high": 157.99,
-        "low": 154.0,
-        "close": 156.39,
-        "volume": 909533,
+        "date": "2026-07-21",
+        "open": 156.51,
+        "high": 159.95,
+        "low": 154.5,
+        "close": 156.18,
+        "volume": 1358608,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-07-20",
-        "rsi_14": 50.06073968723608,
-        "macd": 2.131712050233517,
-        "macd_signal": 3.6040856426065577,
-        "macd_hist": -1.4723735923730406,
-        "sma_20": 161.096,
-        "sma_50": 148.62939999999998,
-        "bb_lower": 153.5153226243639,
-        "bb_mid": 161.096,
-        "bb_upper": 168.6766773756361
+        "date": "2026-07-21",
+        "rsi_14": 49.81906960857958,
+        "macd": 1.7734643170506672,
+        "macd_signal": 3.23796137749538,
+        "macd_hist": -1.464497060444713,
+        "sma_20": 160.811,
+        "sma_50": 149.0982,
+        "bb_lower": 152.93171897483776,
+        "bb_mid": 160.811,
+        "bb_upper": 168.69028102516225
       },
       "fundamentals": [
         {
@@ -105,10 +105,18 @@
           "net_profit": 4189.33,
           "eps": 1.99,
           "source_url": "https://www.psx.com.pk/psx/files-attachment/?file=275979.pdf",
-          "entered_on": "2026-07-20"
+          "entered_on": "2026-07-21"
         }
       ],
       "recent_news": [
+        {
+          "published": "Tue, 14 Jan 2025 06:51:07 GMT",
+          "headline": "ENGROH Stock Price and Chart \u2014 PSX:ENGROH - TradingView",
+          "source": "TradingView",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CenI3ajBFTTlJeXRMdVFxbXpyaFNUSk1rYkQ1YmMxX2liMmdReWptcjlDUmhPdHVwT1NqMkpYbWVVX18ycC1yc3VQQXJqbXp1eGp3eXBzQXk2X1E?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
+        },
         {
           "published": "Thu, 25 Jun 2026 14:53:48 GMT",
           "headline": "FATIMA Forecast \u2014 Price Target \u2014 Prediction for 2027 - TradingView",
@@ -140,38 +148,30 @@
           "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5PVVY4VmtLS1ptQ2xLSVFBbkNORThhcnBiN2JiaXlDd1VzMm1ncnptYUhBNzVDeUw4Wk9aT2pHZVM1WkxxY2hoZ0gzNmtZdy05b1BnclJEVQ?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
-        },
-        {
-          "published": "Mon, 28 Jul 2025 07:00:00 GMT",
-          "headline": "Fatima Fertilizer Board approves 100% acquisition of Fatima Petroleum - Mettis Global",
-          "source": "Mettis Global",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOR0F0V2xWNjdrQUQ2ZDMxejZnd01TTk5PUndYS1djbTExMTJfb2VDQi1wTmRvY1RKQUduWkM0bVktZ3VjNHNVVFlTNlcxS2xzd2piY3ljTy13TU1qbGh5Rnc5M08zMFE0WFp4TFItWGcyZW9uYzJBZE9vRmlYNEd3SlFYNldzQ1ZMejdBLUVqUjRQeF9kS3pWLVEyUklxZGZVVGc?oc=5",
-          "sentiment_label": "neutral",
-          "sentiment_score": 0.0
         }
       ]
     },
     "EFERT": {
       "price": {
-        "date": "2026-07-20",
-        "open": 191.5,
-        "high": 191.5,
-        "low": 189.9,
-        "close": 191.07,
-        "volume": 643503,
+        "date": "2026-07-21",
+        "open": 191.51,
+        "high": 193.34,
+        "low": 190.0,
+        "close": 190.94,
+        "volume": 520132,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-07-20",
-        "rsi_14": 37.726039007531384,
-        "macd": -2.1977028475075713,
-        "macd_signal": -1.643278901016895,
-        "macd_hist": -0.5544239464906762,
-        "sma_20": 196.47899999999998,
-        "sma_50": 198.4228,
-        "bb_lower": 189.64105047662022,
-        "bb_mid": 196.47899999999998,
-        "bb_upper": 203.31694952337975
+        "date": "2026-07-21",
+        "rsi_14": 37.50230147972214,
+        "macd": -2.2877975053167745,
+        "macd_signal": -1.772182621876871,
+        "macd_hist": -0.5156148834399035,
+        "sma_20": 196.01949999999997,
+        "sma_50": 198.3004,
+        "bb_lower": 188.98236100299005,
+        "bb_mid": 196.01949999999997,
+        "bb_upper": 203.05663899700988
       },
       "fundamentals": [
         {
@@ -180,7 +180,7 @@
           "net_profit": 2891.066,
           "eps": 2.17,
           "source_url": "https://dps.psx.com.pk/download/document/276079.pdf",
-          "entered_on": "2026-07-20"
+          "entered_on": "2026-07-21"
         }
       ],
       "recent_news": [
