@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-07-21T12:24:53.094800+00:00",
+  "generated_at": "2026-07-22T12:26:38.093317+00:00",
   "tickers": {
     "FFC": {
       "price": {
-        "date": "2026-07-21",
-        "open": 553.22,
-        "high": 556.0,
-        "low": 549.51,
-        "close": 550.21,
-        "volume": 684161,
+        "date": "2026-07-22",
+        "open": 549.0,
+        "high": 557.4,
+        "low": 541.51,
+        "close": 543.91,
+        "volume": 973892,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-07-21",
-        "rsi_14": 45.101166016181,
-        "macd": -0.8387254145925453,
-        "macd_signal": 1.952836160445457,
-        "macd_hist": -2.7915615750380023,
-        "sma_20": 560.613,
-        "sma_50": 549.5636000000001,
-        "bb_lower": 538.7327295312004,
-        "bb_mid": 560.613,
-        "bb_upper": 582.4932704687997
+        "date": "2026-07-22",
+        "rsi_14": 40.67058671108188,
+        "macd": -1.6774241468071978,
+        "macd_signal": 1.226784098994926,
+        "macd_hist": -2.9042082458021237,
+        "sma_20": 559.9115,
+        "sma_50": 549.8528,
+        "bb_lower": 536.8051196781645,
+        "bb_mid": 559.9115,
+        "bb_upper": 583.0178803218356
       },
       "fundamentals": [
         {
@@ -30,7 +30,7 @@
           "net_profit": 17476.826,
           "eps": 12.14,
           "source_url": "https://dps.psx.com.pk/download/document/276333.pdf",
-          "entered_on": "2026-07-21"
+          "entered_on": "2026-07-22"
         }
       ],
       "recent_news": [
@@ -78,25 +78,25 @@
     },
     "FATIMA": {
       "price": {
-        "date": "2026-07-21",
-        "open": 156.51,
-        "high": 159.95,
-        "low": 154.5,
-        "close": 156.18,
-        "volume": 1358608,
+        "date": "2026-07-22",
+        "open": 155.0,
+        "high": 157.0,
+        "low": 153.95,
+        "close": 155.49,
+        "volume": 538047,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-07-21",
-        "rsi_14": 49.81906960857958,
-        "macd": 1.7734643170506672,
-        "macd_signal": 3.23796137749538,
-        "macd_hist": -1.464497060444713,
-        "sma_20": 160.811,
-        "sma_50": 149.0982,
-        "bb_lower": 152.93171897483776,
-        "bb_mid": 160.811,
-        "bb_upper": 168.69028102516225
+        "date": "2026-07-22",
+        "rsi_14": 48.98235043413548,
+        "macd": 1.417532739006532,
+        "macd_signal": 2.873875649797611,
+        "macd_hist": -1.4563429107910788,
+        "sma_20": 160.4725,
+        "sma_50": 149.3998,
+        "bb_lower": 152.27986691643622,
+        "bb_mid": 160.4725,
+        "bb_upper": 168.66513308356377
       },
       "fundamentals": [
         {
@@ -105,7 +105,7 @@
           "net_profit": 4189.33,
           "eps": 1.99,
           "source_url": "https://www.psx.com.pk/psx/files-attachment/?file=275979.pdf",
-          "entered_on": "2026-07-21"
+          "entered_on": "2026-07-22"
         }
       ],
       "recent_news": [
@@ -153,25 +153,25 @@
     },
     "EFERT": {
       "price": {
-        "date": "2026-07-21",
-        "open": 191.51,
-        "high": 193.34,
-        "low": 190.0,
-        "close": 190.94,
-        "volume": 520132,
+        "date": "2026-07-22",
+        "open": 191.01,
+        "high": 193.0,
+        "low": 189.52,
+        "close": 190.24,
+        "volume": 399307,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-07-21",
-        "rsi_14": 37.50230147972214,
-        "macd": -2.2877975053167745,
-        "macd_signal": -1.772182621876871,
-        "macd_hist": -0.5156148834399035,
-        "sma_20": 196.01949999999997,
-        "sma_50": 198.3004,
-        "bb_lower": 188.98236100299005,
-        "bb_mid": 196.01949999999997,
-        "bb_upper": 203.05663899700988
+        "date": "2026-07-22",
+        "rsi_14": 36.25546229122538,
+        "macd": -2.3881531773289453,
+        "macd_signal": -1.895376732967286,
+        "macd_hist": -0.49277644436165935,
+        "sma_20": 195.537,
+        "sma_50": 198.0978,
+        "bb_lower": 188.29687758172147,
+        "bb_mid": 195.537,
+        "bb_upper": 202.77712241827854
       },
       "fundamentals": [
         {
@@ -180,7 +180,7 @@
           "net_profit": 2891.066,
           "eps": 2.17,
           "source_url": "https://dps.psx.com.pk/download/document/276079.pdf",
-          "entered_on": "2026-07-21"
+          "entered_on": "2026-07-22"
         }
       ],
       "recent_news": [
@@ -217,10 +217,10 @@
           "sentiment_score": 0.0
         },
         {
-          "published": "Sat, 09 Dec 2023 08:00:00 GMT",
-          "headline": "Engro Corporation, its listed subsidiaries recognised among top 10 recipients at PSX awards - The Nation (Pakistan )",
-          "source": "The Nation (Pakistan )",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOc0lrN2xKR1FTZm81NWRrUXlOclQ1a2o0SVhTWEltT2xLejVZbXIxOXVoNTc3X0hRRXFSeVRKbnBtYXZSWFh2NlZWckpoYW9QVnIzVDRObFlmQTJvOE5YMDRZVmV1RGRJTHB0T2xnWWNhME14UXhsU1NoQWZ2QmpCRnU3Z2hqMkFqVmlEVE03XzVZVWc2cDV2RUw4TVlyVDktWlp5ZzZMd3NYbjU3Vk92bGdVSDVGTEtuN0d2bFlGMGo1b0NyVFZr?oc=5",
+          "published": "Sat, 19 Jul 2025 07:00:00 GMT",
+          "headline": "Engro Fertilizer Joins $1 Billion Dollar Club On PSX - Digital Pakistan",
+          "source": "Digital Pakistan",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOekZ3Z0xSNkhHSkZlZ016Z3FzeFFJcHVmXzBJd3lsNnY4UmlMRTR5SnJLXzh6Q2xMaTBwLTVVQjVsTldranZMT1lEYnoxdlIySWlQeDNwdEFQVjREQ1dZZzNJVmwyTmEyUzl3b0Yzb2VBMThZNmQ4NnpOLVVfM1FudDFWY20zUQ?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
         }
