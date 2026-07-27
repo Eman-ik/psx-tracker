@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-07-24T12:20:34.910798+00:00",
+  "generated_at": "2026-07-27T13:40:20.237232+00:00",
   "tickers": {
     "FFC": {
       "price": {
-        "date": "2026-07-24",
-        "open": 534.89,
-        "high": 539.65,
-        "low": 529.0,
-        "close": 533.52,
-        "volume": 704777,
+        "date": "2026-07-27",
+        "open": 545.0,
+        "high": 549.9,
+        "low": 540.01,
+        "close": 548.17,
+        "volume": 1173860,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-07-24",
-        "rsi_14": 34.56753669773182,
-        "macd": -4.158462802061081,
-        "macd_signal": -0.5290798904690794,
-        "macd_hist": -3.6293829115920015,
-        "sma_20": 557.628,
-        "sma_50": 549.8517999999999,
-        "bb_lower": 529.633142878351,
-        "bb_mid": 557.628,
-        "bb_upper": 585.6228571216491
+        "date": "2026-07-27",
+        "rsi_14": 47.338060593002574,
+        "macd": -3.8376549300636498,
+        "macd_signal": -1.1907948983879935,
+        "macd_hist": -2.646860031675656,
+        "sma_20": 557.4100000000001,
+        "sma_50": 550.3501999999999,
+        "bb_lower": 529.1810644905199,
+        "bb_mid": 557.4100000000001,
+        "bb_upper": 585.6389355094802
       },
       "fundamentals": [
         {
@@ -30,7 +30,7 @@
           "net_profit": 17476.826,
           "eps": 12.14,
           "source_url": "https://dps.psx.com.pk/download/document/276333.pdf",
-          "entered_on": "2026-07-24"
+          "entered_on": "2026-07-27"
         }
       ],
       "recent_news": [
@@ -78,25 +78,25 @@
     },
     "FATIMA": {
       "price": {
-        "date": "2026-07-24",
-        "open": 151.0,
-        "high": 152.8,
-        "low": 147.0,
-        "close": 150.39,
-        "volume": 323374,
+        "date": "2026-07-27",
+        "open": 156.0,
+        "high": 159.3,
+        "low": 153.02,
+        "close": 158.13,
+        "volume": 650858,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-07-24",
-        "rsi_14": 43.16937455976435,
-        "macd": 0.18719780792108054,
-        "macd_signal": 1.9973548157330387,
-        "macd_hist": -1.8101570078119582,
-        "sma_20": 159.3295,
-        "sma_50": 149.86020000000005,
-        "bb_lower": 149.28426656634383,
-        "bb_mid": 159.3295,
-        "bb_upper": 169.37473343365616
+        "date": "2026-07-27",
+        "rsi_14": 52.93060900377196,
+        "macd": 0.3584498810142236,
+        "macd_signal": 1.6695738287892758,
+        "macd_hist": -1.3111239477750523,
+        "sma_20": 159.0835,
+        "sma_50": 150.27320000000006,
+        "bb_lower": 149.18195036052637,
+        "bb_mid": 159.0835,
+        "bb_upper": 168.9850496394736
       },
       "fundamentals": [
         {
@@ -105,7 +105,7 @@
           "net_profit": 4189.33,
           "eps": 1.99,
           "source_url": "https://www.psx.com.pk/psx/files-attachment/?file=275979.pdf",
-          "entered_on": "2026-07-24"
+          "entered_on": "2026-07-27"
         }
       ],
       "recent_news": [
@@ -153,25 +153,25 @@
     },
     "EFERT": {
       "price": {
-        "date": "2026-07-24",
-        "open": 187.01,
-        "high": 189.0,
-        "low": 185.55,
-        "close": 187.37,
-        "volume": 517485,
+        "date": "2026-07-27",
+        "open": 189.99,
+        "high": 191.6,
+        "low": 189.0,
+        "close": 191.06,
+        "volume": 743805,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-07-24",
-        "rsi_14": 31.601495530660653,
-        "macd": -2.8503613211874494,
-        "macd_signal": -2.2085433276779693,
-        "macd_hist": -0.6418179935094801,
-        "sma_20": 194.30050000000006,
-        "sma_50": 197.62519999999998,
-        "bb_lower": 186.17954730763316,
-        "bb_mid": 194.30050000000006,
-        "bb_upper": 202.42145269236696
+        "date": "2026-07-27",
+        "rsi_14": 42.56068298188043,
+        "macd": -2.6734957485876976,
+        "macd_signal": -2.3015338118599153,
+        "macd_hist": -0.3719619367277822,
+        "sma_20": 193.90200000000004,
+        "sma_50": 197.44779999999997,
+        "bb_lower": 185.9784372712856,
+        "bb_mid": 193.90200000000004,
+        "bb_upper": 201.8255627287145
       },
       "fundamentals": [
         {
@@ -180,7 +180,7 @@
           "net_profit": 2891.066,
           "eps": 2.17,
           "source_url": "https://dps.psx.com.pk/download/document/276079.pdf",
-          "entered_on": "2026-07-24"
+          "entered_on": "2026-07-27"
         }
       ],
       "recent_news": [
@@ -191,6 +191,14 @@
           "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE03UjlVOGZUenhOZUlWYzYxTUlIRWRBbkhkbjZBaGZMVUNVZG1oeXBjUU5Ec0k1eHNmdi1zWmdZUHRoLUtwQ3RzVWtrZU9vcnVicU1CZkNmZ2ZTY2ttMDc1cVdpQ3MwUlFrcmlTQkZlQnFWeGpsQlpZ?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
+        },
+        {
+          "published": "Mon, 20 Apr 2026 07:00:00 GMT",
+          "headline": "EFERT Q1CY26 profit climbs 14% - Mettis Global",
+          "source": "Mettis Global",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXbGliclYtWmd1NFlIbGRuTHk0MUlCRFZCLTFvLUJCWUt6UVF0MmRDc3ZXUDRUYi1kdEllRnUwaFlRbUo0a1VQZFJFdlYtUWk2MGN4TjFPb0gxcnN6Q3FBWThPTWt5eFF6QnVuczBB?oc=5",
+          "sentiment_label": "positive",
+          "sentiment_score": 1.0
         },
         {
           "published": "Mon, 08 May 2023 03:21:11 GMT",
@@ -213,14 +221,6 @@
           "headline": "EFERT on track to finish Phase 1 of gas facility by end-August - Mettis Global",
           "source": "Mettis Global",
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSkxRay1oanVLYmMyTF9hY3gwSmxSRG9TdE5JUW1JejJXX2ZVV0oxdDd5c2lnQ0hybUdWOHVyX2FOaVFRdUNPMmpKSWlNSWdxeDE1eUJpdG9kN1VjODdBSE5vMlJUa3pEejVUa213bElZTVFLQXVLNldDaEVqeFJqeEtySkVONXNzSzFGa1QyUXhfRUczY2p1dw?oc=5",
-          "sentiment_label": "neutral",
-          "sentiment_score": 0.0
-        },
-        {
-          "published": "Sat, 09 Dec 2023 08:00:00 GMT",
-          "headline": "Engro Corporation, its listed subsidiaries recognised among top 10 recipients at PSX awards - The Nation (Pakistan )",
-          "source": "The Nation (Pakistan )",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOc0lrN2xKR1FTZm81NWRrUXlOclQ1a2o0SVhTWEltT2xLejVZbXIxOXVoNTc3X0hRRXFSeVRKbnBtYXZSWFh2NlZWckpoYW9QVnIzVDRObFlmQTJvOE5YMDRZVmV1RGRJTHB0T2xnWWNhME14UXhsU1NoQWZ2QmpCRnU3Z2hqMkFqVmlEVE03XzVZVWc2cDV2RUw4TVlyVDktWlp5ZzZMd3NYbjU3Vk92bGdVSDVGTEtuN0d2bFlGMGo1b0NyVFZr?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
         }
