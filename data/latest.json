@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-07-28T12:56:05.402089+00:00",
+  "generated_at": "2026-07-29T13:02:15.734220+00:00",
   "tickers": {
     "FFC": {
       "price": {
-        "date": "2026-07-28",
-        "open": 548.17,
-        "high": 554.9,
+        "date": "2026-07-29",
+        "open": 547.71,
+        "high": 564.0,
         "low": 547.0,
-        "close": 547.71,
-        "volume": 878650,
+        "close": 558.73,
+        "volume": 4987103,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-07-28",
-        "rsi_14": 47.02769467521062,
-        "macd": -3.579270928583469,
-        "macd_signal": -1.6684901044270886,
-        "macd_hist": -1.9107808241563804,
-        "sma_20": 556.1215,
-        "sma_50": 550.8652,
-        "bb_lower": 528.6383520343162,
-        "bb_mid": 556.1215,
-        "bb_upper": 583.6046479656837
+        "date": "2026-07-29",
+        "rsi_14": 54.691609115055996,
+        "macd": -2.456955589206359,
+        "macd_signal": -1.8261832013829427,
+        "macd_hist": -0.6307723878234164,
+        "sma_20": 555.4495000000001,
+        "sma_50": 551.6537999999999,
+        "bb_lower": 528.9800359846188,
+        "bb_mid": 555.4495000000001,
+        "bb_upper": 581.9189640153813
       },
       "fundamentals": [
         {
@@ -30,7 +30,7 @@
           "net_profit": 17476.826,
           "eps": 12.14,
           "source_url": "https://dps.psx.com.pk/download/document/276333.pdf",
-          "entered_on": "2026-07-28"
+          "entered_on": "2026-07-29"
         }
       ],
       "recent_news": [
@@ -78,25 +78,25 @@
     },
     "FATIMA": {
       "price": {
-        "date": "2026-07-28",
-        "open": 158.5,
-        "high": 159.0,
-        "low": 155.03,
-        "close": 157.21,
-        "volume": 395476,
+        "date": "2026-07-29",
+        "open": 157.0,
+        "high": 157.0,
+        "low": 153.99,
+        "close": 154.63,
+        "volume": 373470,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-07-28",
-        "rsi_14": 51.79189243919373,
-        "macd": 0.4151465208334457,
-        "macd_signal": 1.4186883671981099,
-        "macd_hist": -1.0035418463646641,
-        "sma_20": 158.679,
-        "sma_50": 150.67480000000003,
-        "bb_lower": 149.19454202087974,
-        "bb_mid": 158.679,
-        "bb_upper": 168.16345797912027
+        "date": "2026-07-29",
+        "rsi_14": 48.632169839558394,
+        "macd": 0.24902398484189803,
+        "macd_signal": 1.1847554907268676,
+        "macd_hist": -0.9357315058849696,
+        "sma_20": 158.35450000000003,
+        "sma_50": 151.05500000000004,
+        "bb_lower": 148.7780387812884,
+        "bb_mid": 158.35450000000003,
+        "bb_upper": 167.93096121871167
       },
       "fundamentals": [
         {
@@ -105,18 +105,10 @@
           "net_profit": 4189.33,
           "eps": 1.99,
           "source_url": "https://www.psx.com.pk/psx/files-attachment/?file=275979.pdf",
-          "entered_on": "2026-07-28"
+          "entered_on": "2026-07-29"
         }
       ],
       "recent_news": [
-        {
-          "published": "Tue, 14 Jan 2025 06:51:07 GMT",
-          "headline": "ENGROH Stock Price and Chart \u2014 PSX:ENGROH - TradingView",
-          "source": "TradingView",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CenI3ajBFTTlJeXRMdVFxbXpyaFNUSk1rYkQ1YmMxX2liMmdReWptcjlDUmhPdHVwT1NqMkpYbWVVX18ycC1yc3VQQXJqbXp1eGp3eXBzQXk2X1E?oc=5",
-          "sentiment_label": "neutral",
-          "sentiment_score": 0.0
-        },
         {
           "published": "Thu, 25 Jun 2026 14:53:48 GMT",
           "headline": "FATIMA Forecast \u2014 Price Target \u2014 Prediction for 2027 - TradingView",
@@ -148,30 +140,38 @@
           "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5PVVY4VmtLS1ptQ2xLSVFBbkNORThhcnBiN2JiaXlDd1VzMm1ncnptYUhBNzVDeUw4Wk9aT2pHZVM1WkxxY2hoZ0gzNmtZdy05b1BnclJEVQ?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
+        },
+        {
+          "published": "Mon, 28 Jul 2025 07:00:00 GMT",
+          "headline": "FFCL acquires 100% stake of Fatima Petroleum Company Limited - Business Recorder",
+          "source": "Business Recorder",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBhZHF3d2VKZ0FzSk5waThRM0FMZXBLa2kxZXJ1aTBPQzhnc1EtMi03UUY2M2F3Q3NLMjhXNm5IdUZWVjNpZUlJamRDNVV2U2VX0gFWQVVfeXFMTWJSYTZCTjRUa3lWTWRQR1FGTGVWLUVzU1lrS3BZdGd2RENGSVJTLThnclJtbnlEbHhjYUhwQldKR1FBZWExX2lucjV1Z29hb3lfeW4wUmc?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
         }
       ]
     },
     "EFERT": {
       "price": {
-        "date": "2026-07-28",
-        "open": 192.0,
-        "high": 192.0,
-        "low": 189.25,
-        "close": 189.65,
-        "volume": 609065,
+        "date": "2026-07-29",
+        "open": 188.0,
+        "high": 188.97,
+        "low": 187.0,
+        "close": 187.21,
+        "volume": 787746,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-07-28",
-        "rsi_14": 39.92806727629157,
-        "macd": -2.61693729998575,
-        "macd_signal": -2.3646145094850826,
-        "macd_hist": -0.2523227905006675,
-        "sma_20": 193.43700000000004,
-        "sma_50": 197.2586,
-        "bb_lower": 185.67079493879316,
-        "bb_mid": 193.43700000000004,
-        "bb_upper": 201.20320506120692
+        "date": "2026-07-29",
+        "rsi_14": 35.80110322273113,
+        "macd": -2.737446352505742,
+        "macd_signal": -2.4391808780892146,
+        "macd_hist": -0.2982654744165276,
+        "sma_20": 192.80400000000006,
+        "sma_50": 197.0212,
+        "bb_lower": 185.1831217524985,
+        "bb_mid": 192.80400000000006,
+        "bb_upper": 200.42487824750162
       },
       "fundamentals": [
         {
@@ -180,7 +180,7 @@
           "net_profit": 2891.066,
           "eps": 2.17,
           "source_url": "https://dps.psx.com.pk/download/document/276079.pdf",
-          "entered_on": "2026-07-28"
+          "entered_on": "2026-07-29"
         }
       ],
       "recent_news": [
@@ -191,14 +191,6 @@
           "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE03UjlVOGZUenhOZUlWYzYxTUlIRWRBbkhkbjZBaGZMVUNVZG1oeXBjUU5Ec0k1eHNmdi1zWmdZUHRoLUtwQ3RzVWtrZU9vcnVicU1CZkNmZ2ZTY2ttMDc1cVdpQ3MwUlFrcmlTQkZlQnFWeGpsQlpZ?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
-        },
-        {
-          "published": "Mon, 20 Apr 2026 07:00:00 GMT",
-          "headline": "EFERT Q1CY26 profit climbs 14% - Mettis Global",
-          "source": "Mettis Global",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXbGliclYtWmd1NFlIbGRuTHk0MUlCRFZCLTFvLUJCWUt6UVF0MmRDc3ZXUDRUYi1kdEllRnUwaFlRbUo0a1VQZFJFdlYtUWk2MGN4TjFPb0gxcnN6Q3FBWThPTWt5eFF6QnVuczBB?oc=5",
-          "sentiment_label": "positive",
-          "sentiment_score": 1.0
         },
         {
           "published": "Mon, 08 May 2023 03:21:11 GMT",
@@ -221,6 +213,14 @@
           "headline": "EFERT on track to finish Phase 1 of gas facility by end-August - Mettis Global",
           "source": "Mettis Global",
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSkxRay1oanVLYmMyTF9hY3gwSmxSRG9TdE5JUW1JejJXX2ZVV0oxdDd5c2lnQ0hybUdWOHVyX2FOaVFRdUNPMmpKSWlNSWdxeDE1eUJpdG9kN1VjODdBSE5vMlJUa3pEejVUa213bElZTVFLQXVLNldDaEVqeFJqeEtySkVONXNzSzFGa1QyUXhfRUczY2p1dw?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
+        },
+        {
+          "published": "Sat, 09 Dec 2023 08:00:00 GMT",
+          "headline": "Engro Corporation, its listed subsidiaries recognised among top 10 recipients at PSX awards - The Nation (Pakistan )",
+          "source": "The Nation (Pakistan )",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOc0lrN2xKR1FTZm81NWRrUXlOclQ1a2o0SVhTWEltT2xLejVZbXIxOXVoNTc3X0hRRXFSeVRKbnBtYXZSWFh2NlZWckpoYW9QVnIzVDRObFlmQTJvOE5YMDRZVmV1RGRJTHB0T2xnWWNhME14UXhsU1NoQWZ2QmpCRnU3Z2hqMkFqVmlEVE03XzVZVWc2cDV2RUw4TVlyVDktWlp5ZzZMd3NYbjU3Vk92bGdVSDVGTEtuN0d2bFlGMGo1b0NyVFZr?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
         }
