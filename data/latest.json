@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-07-30T12:46:00.165718+00:00",
+  "generated_at": "2026-07-31T12:57:59.730825+00:00",
   "tickers": {
     "FFC": {
       "price": {
-        "date": "2026-07-30",
-        "open": 559.99,
-        "high": 568.05,
-        "low": 559.0,
-        "close": 565.07,
-        "volume": 2381799,
+        "date": "2026-07-31",
+        "open": 566.99,
+        "high": 571.0,
+        "low": 564.89,
+        "close": 565.38,
+        "volume": 1105927,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-07-30",
-        "rsi_14": 58.41887485573841,
-        "macd": -1.0438942197318966,
-        "macd_signal": -1.6697254050527335,
-        "macd_hist": 0.6258311853208369,
-        "sma_20": 555.089,
-        "sma_50": 552.6145999999999,
-        "bb_lower": 529.39979038731,
-        "bb_mid": 555.089,
-        "bb_upper": 580.7782096126901
+        "date": "2026-07-31",
+        "rsi_14": 58.5982192717166,
+        "macd": 0.09983071897011087,
+        "macd_signal": -1.3158141802481647,
+        "macd_hist": 1.4156448992182755,
+        "sma_20": 554.522,
+        "sma_50": 553.68,
+        "bb_lower": 530.3896093622461,
+        "bb_mid": 554.522,
+        "bb_upper": 578.654390637754
       },
       "fundamentals": [
         {
@@ -30,7 +30,7 @@
           "net_profit": 17476.826,
           "eps": 12.14,
           "source_url": "https://dps.psx.com.pk/download/document/276333.pdf",
-          "entered_on": "2026-07-30"
+          "entered_on": "2026-07-31"
         }
       ],
       "recent_news": [
@@ -68,8 +68,8 @@
         },
         {
           "published": "Tue, 24 Mar 2026 07:00:00 GMT",
-          "headline": "Mari Energies inks agreements with major fertilizer firms to boost gas supply - Business Recorder",
-          "source": "Business Recorder",
+          "headline": "Mari Energies inks agreements with major fertilizer firms to boost gas supply - brecorder.com",
+          "source": "brecorder.com",
           "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jSzl3aXBKRENxTnhUU2ppejRHN0hPZl9zb3lXOFl2bjBMR3NkYlJoRHM4VFBEekgyQ191QXJzbU1NUkN6UjNTb0JaWThBSTZaNnBNR2l30gFWQVVfeXFMTmNLOXdpcEpEQ3FOeFRTaml6NEc3SE9mX3NveVc4WXZuMExHc2RiUmhEczhUUER6SDJDX3VBcnNtTU1SQ3pSM1NvQlpZOEFJNlo2cE1HaXc?oc=5",
           "sentiment_label": "positive",
           "sentiment_score": 1.0
@@ -78,25 +78,25 @@
     },
     "FATIMA": {
       "price": {
-        "date": "2026-07-30",
-        "open": 154.0,
-        "high": 156.0,
-        "low": 152.96,
-        "close": 155.22,
-        "volume": 373613,
+        "date": "2026-07-31",
+        "open": 155.1,
+        "high": 157.69,
+        "low": 154.91,
+        "close": 155.03,
+        "volume": 270058,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-07-30",
-        "rsi_14": 49.39252903069825,
-        "macd": 0.16309864769928595,
-        "macd_signal": 0.9804241221213512,
-        "macd_hist": -0.8173254744220653,
-        "sma_20": 157.89650000000003,
-        "sma_50": 151.4368,
-        "bb_lower": 148.663389615724,
-        "bb_mid": 157.89650000000003,
-        "bb_upper": 167.12961038427608
+        "date": "2026-07-31",
+        "rsi_14": 49.14026730275035,
+        "macd": 0.07876285765652824,
+        "macd_signal": 0.8000918692283866,
+        "macd_hist": -0.7213290115718584,
+        "sma_20": 157.45999999999998,
+        "sma_50": 151.8456,
+        "bb_lower": 148.57518622652785,
+        "bb_mid": 157.45999999999998,
+        "bb_upper": 166.3448137734721
       },
       "fundamentals": [
         {
@@ -105,10 +105,18 @@
           "net_profit": 4189.33,
           "eps": 1.99,
           "source_url": "https://www.psx.com.pk/psx/files-attachment/?file=275979.pdf",
-          "entered_on": "2026-07-30"
+          "entered_on": "2026-07-31"
         }
       ],
       "recent_news": [
+        {
+          "published": "Tue, 14 Jan 2025 06:51:07 GMT",
+          "headline": "ENGROH Stock Price and Chart \u2014 PSX:ENGROH - TradingView",
+          "source": "TradingView",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CenI3ajBFTTlJeXRMdVFxbXpyaFNUSk1rYkQ1YmMxX2liMmdReWptcjlDUmhPdHVwT1NqMkpYbWVVX18ycC1yc3VQQXJqbXp1eGp3eXBzQXk2X1E?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
+        },
         {
           "published": "Thu, 25 Jun 2026 14:53:48 GMT",
           "headline": "FATIMA Forecast \u2014 Price Target \u2014 Prediction for 2027 - TradingView",
@@ -140,38 +148,30 @@
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcDZfUktJMGhuMGQ5QmlmbWlvcm16REtSbE5XNndyWXF3ZUJyUnZ2b19ucVVxNU44V2hIcGZ4d0xYb2hEX2V5dUcwei1qUEhEYzRHLVhTQUY1a0R0UW9ZcDQ5Y1N5SFRoNE1CNTBwOUhsZFl4YnJuMy1lMDhhWG1lSFlzMVRfVjk3TDV3eXhreTlsUQ?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
-        },
-        {
-          "published": "Thu, 11 May 2023 18:34:10 GMT",
-          "headline": "FFC Stock Price and Chart \u2014 PSX:FFC - TradingView",
-          "source": "TradingView",
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5PVVY4VmtLS1ptQ2xLSVFBbkNORThhcnBiN2JiaXlDd1VzMm1ncnptYUhBNzVDeUw4Wk9aT2pHZVM1WkxxY2hoZ0gzNmtZdy05b1BnclJEVQ?oc=5",
-          "sentiment_label": "neutral",
-          "sentiment_score": 0.0
         }
       ]
     },
     "EFERT": {
       "price": {
-        "date": "2026-07-30",
-        "open": 180.15,
-        "high": 191.6,
-        "low": 180.15,
-        "close": 190.14,
-        "volume": 3312646,
+        "date": "2026-07-31",
+        "open": 190.14,
+        "high": 191.36,
+        "low": 187.9,
+        "close": 188.24,
+        "volume": 528437,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-07-30",
-        "rsi_14": 43.3704435933316,
-        "macd": -2.56693411328348,
-        "macd_signal": -2.4647315251280677,
-        "macd_hist": -0.1022025881554125,
-        "sma_20": 192.37100000000004,
-        "sma_50": 196.8558,
-        "bb_lower": 185.2146325003841,
-        "bb_mid": 192.37100000000004,
-        "bb_upper": 199.52736749961596
+        "date": "2026-07-31",
+        "rsi_14": 40.07106593785283,
+        "macd": -2.555656044225742,
+        "macd_signal": -2.4829164289476027,
+        "macd_hist": -0.07273961527813944,
+        "sma_20": 191.91700000000003,
+        "sma_50": 196.68099999999998,
+        "bb_lower": 184.93258396367264,
+        "bb_mid": 191.91700000000003,
+        "bb_upper": 198.90141603632742
       },
       "fundamentals": [
         {
@@ -180,7 +180,7 @@
           "net_profit": 2891.066,
           "eps": 2.17,
           "source_url": "https://dps.psx.com.pk/download/document/276079.pdf",
-          "entered_on": "2026-07-30"
+          "entered_on": "2026-07-31"
         }
       ],
       "recent_news": [
