@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-07-31T12:57:59.730825+00:00",
+  "generated_at": "2026-08-03T13:42:37.326606+00:00",
   "tickers": {
     "FFC": {
       "price": {
-        "date": "2026-07-31",
-        "open": 566.99,
-        "high": 571.0,
-        "low": 564.89,
-        "close": 565.38,
-        "volume": 1105927,
+        "date": "2026-08-03",
+        "open": 570.16,
+        "high": 574.1,
+        "low": 569.1,
+        "close": 572.84,
+        "volume": 1332730,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-07-31",
-        "rsi_14": 58.5982192717166,
-        "macd": 0.09983071897011087,
-        "macd_signal": -1.3158141802481647,
-        "macd_hist": 1.4156448992182755,
-        "sma_20": 554.522,
-        "sma_50": 553.68,
-        "bb_lower": 530.3896093622461,
-        "bb_mid": 554.522,
-        "bb_upper": 578.654390637754
+        "date": "2026-08-03",
+        "rsi_14": 62.76072338346782,
+        "macd": 1.5898735544890314,
+        "macd_signal": -0.7346766333007253,
+        "macd_hist": 2.3245501877897565,
+        "sma_20": 554.1435,
+        "sma_50": 555.0418,
+        "bb_lower": 531.5311435502854,
+        "bb_mid": 554.1435,
+        "bb_upper": 576.7558564497147
       },
       "fundamentals": [
         {
@@ -30,7 +30,7 @@
           "net_profit": 17476.826,
           "eps": 12.14,
           "source_url": "https://dps.psx.com.pk/download/document/276333.pdf",
-          "entered_on": "2026-07-31"
+          "entered_on": "2026-08-03"
         }
       ],
       "recent_news": [
@@ -59,44 +59,44 @@
           "sentiment_score": 0.333
         },
         {
-          "published": "Tue, 11 Nov 2025 08:00:00 GMT",
-          "headline": "FFC to acquire remaining 25% stake in FPCL to gain ownership - Mettis Global",
-          "source": "Mettis Global",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaUtwNjBwcEwyNjMzMmp1MTJhaUJkWDZ5LXNVT1JiWmxTbGNXOHgwdF9CVEFEZ0tFZENuMDhydlBpZ1VNVFh1YV9uTXV0ZEVwTEhmOTN0VTZBdl9NU1FZVGJSYTdRZ0JMU1VHSVZ3OUQtMlVvYzNBaFZiUGViNHlweHRndkx5VGYtOXA0R0M2ZEFZUU45Ui1uNl91ak8tc0k3QjVXMjNLcXVRUElaWHM1XzRfd0cyenZtc1U4?oc=5",
+          "published": "Tue, 24 Mar 2026 07:00:00 GMT",
+          "headline": "Mari Energies inks agreements with major fertilizer firms to boost gas supply - Business Recorder",
+          "source": "Business Recorder",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jSzl3aXBKRENxTnhUU2ppejRHN0hPZl9zb3lXOFl2bjBMR3NkYlJoRHM4VFBEekgyQ191QXJzbU1NUkN6UjNTb0JaWThBSTZaNnBNR2l30gFWQVVfeXFMTmNLOXdpcEpEQ3FOeFRTaml6NEc3SE9mX3NveVc4WXZuMExHc2RiUmhEczhUUER6SDJDX3VBcnNtTU1SQ3pSM1NvQlpZOEFJNlo2cE1HaXc?oc=5",
           "sentiment_label": "positive",
           "sentiment_score": 1.0
         },
         {
-          "published": "Tue, 24 Mar 2026 07:00:00 GMT",
-          "headline": "Mari Energies inks agreements with major fertilizer firms to boost gas supply - brecorder.com",
-          "source": "brecorder.com",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jSzl3aXBKRENxTnhUU2ppejRHN0hPZl9zb3lXOFl2bjBMR3NkYlJoRHM4VFBEekgyQ191QXJzbU1NUkN6UjNTb0JaWThBSTZaNnBNR2l30gFWQVVfeXFMTmNLOXdpcEpEQ3FOeFRTaml6NEc3SE9mX3NveVc4WXZuMExHc2RiUmhEczhUUER6SDJDX3VBcnNtTU1SQ3pSM1NvQlpZOEFJNlo2cE1HaXc?oc=5",
-          "sentiment_label": "positive",
-          "sentiment_score": 1.0
+          "published": "Tue, 08 Apr 2025 07:00:00 GMT",
+          "headline": "PSX closes above 115,500 amid high investor activity - The Express Tribune",
+          "source": "The Express Tribune",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPd2x4b1oyOV90c1c5amVfZWcwcmVaRWtnSVRLS1JSSnZ0TEVKRk9Odk00U2dJV0o5dTQtai10UlFlRWl4RWIyQk1HRGNGSVQtWElUOHd0YW9uR0FVV0lFSW5HRVBySVlBM0YtbGw3Qlg3YUgzbFpXYkNiX2pYUFRIRHN5RktmZmsyZFRyZHBZRknSAZgBQVVfeXFMUHlTV2VneXRBZTJITVRvT2xmY2pZVm9WSlc0YzMtdHQ0YUpHODhaUGRmTzdFTHFDSVUxWC12SEhTMF91QWUyU1pxY2I0bmFVTi1md2NidU5hcnNEU0FvRnd5bVlyZERfekJlWkE4MDFlY0wtOXBoT1YtMzloc1Q1LVJNWk02SEpDS0dnbGlNRVpxdS1JeGRDanA?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
         }
       ]
     },
     "FATIMA": {
       "price": {
-        "date": "2026-07-31",
-        "open": 155.1,
-        "high": 157.69,
-        "low": 154.91,
-        "close": 155.03,
-        "volume": 270058,
+        "date": "2026-08-03",
+        "open": 157.49,
+        "high": 158.49,
+        "low": 155.5,
+        "close": 157.35,
+        "volume": 687368,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-07-31",
-        "rsi_14": 49.14026730275035,
-        "macd": 0.07876285765652824,
-        "macd_signal": 0.8000918692283866,
-        "macd_hist": -0.7213290115718584,
-        "sma_20": 157.45999999999998,
-        "sma_50": 151.8456,
-        "bb_lower": 148.57518622652785,
-        "bb_mid": 157.45999999999998,
-        "bb_upper": 166.3448137734721
+        "date": "2026-08-03",
+        "rsi_14": 52.34103238249133,
+        "macd": 0.1968614511254998,
+        "macd_signal": 0.6794457856078092,
+        "macd_hist": -0.4825843344823094,
+        "sma_20": 157.0315,
+        "sma_50": 152.3764,
+        "bb_lower": 149.0878450676645,
+        "bb_mid": 157.0315,
+        "bb_upper": 164.9751549323355
       },
       "fundamentals": [
         {
@@ -105,7 +105,7 @@
           "net_profit": 4189.33,
           "eps": 1.99,
           "source_url": "https://www.psx.com.pk/psx/files-attachment/?file=275979.pdf",
-          "entered_on": "2026-07-31"
+          "entered_on": "2026-08-03"
         }
       ],
       "recent_news": [
@@ -153,25 +153,25 @@
     },
     "EFERT": {
       "price": {
-        "date": "2026-07-31",
-        "open": 190.14,
-        "high": 191.36,
-        "low": 187.9,
-        "close": 188.24,
-        "volume": 528437,
+        "date": "2026-08-03",
+        "open": 189.98,
+        "high": 190.7,
+        "low": 187.8,
+        "close": 190.36,
+        "volume": 2279425,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-07-31",
-        "rsi_14": 40.07106593785283,
-        "macd": -2.555656044225742,
-        "macd_signal": -2.4829164289476027,
-        "macd_hist": -0.07273961527813944,
-        "sma_20": 191.91700000000003,
-        "sma_50": 196.68099999999998,
-        "bb_lower": 184.93258396367264,
-        "bb_mid": 191.91700000000003,
-        "bb_upper": 198.90141603632742
+        "date": "2026-08-03",
+        "rsi_14": 45.090477165476344,
+        "macd": -2.348578855713555,
+        "macd_signal": -2.4560489143007933,
+        "macd_hist": 0.10747005858723835,
+        "sma_20": 191.5135,
+        "sma_50": 196.63459999999998,
+        "bb_lower": 185.2145668405312,
+        "bb_mid": 191.5135,
+        "bb_upper": 197.81243315946878
       },
       "fundamentals": [
         {
@@ -180,7 +180,7 @@
           "net_profit": 2891.066,
           "eps": 2.17,
           "source_url": "https://dps.psx.com.pk/download/document/276079.pdf",
-          "entered_on": "2026-07-31"
+          "entered_on": "2026-08-03"
         }
       ],
       "recent_news": [
