@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-08-07T11:47:13.913719+00:00",
+  "generated_at": "2026-08-10T11:48:42.422667+00:00",
   "tickers": {
     "FFC": {
       "price": {
-        "date": "2026-08-07",
-        "open": 582.0,
-        "high": 585.0,
-        "low": 580.0,
-        "close": 583.48,
-        "volume": 1463389,
+        "date": "2026-08-10",
+        "open": 570.0,
+        "high": 570.01,
+        "low": 563.0,
+        "close": 563.51,
+        "volume": 937927,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-08-07",
-        "rsi_14": 67.39539500350725,
-        "macd": 6.427128304917005,
-        "macd_signal": 2.6192034732545855,
-        "macd_hist": 3.8079248316624197,
-        "sma_20": 556.9185,
-        "sma_50": 559.5737999999999,
-        "bb_lower": 526.9609754905343,
-        "bb_mid": 556.9185,
-        "bb_upper": 586.8760245094657
+        "date": "2026-08-10",
+        "rsi_14": 51.20806283271123,
+        "macd": 5.575399635185363,
+        "macd_signal": 3.210442705640741,
+        "macd_hist": 2.364956929544622,
+        "sma_20": 557.2864999999999,
+        "sma_50": 560.0093999999999,
+        "bb_lower": 527.1882333774416,
+        "bb_mid": 557.2864999999999,
+        "bb_upper": 587.3847666225582
       },
       "fundamentals": [
         {
@@ -30,18 +30,10 @@
           "net_profit": 17476.826,
           "eps": 12.14,
           "source_url": "https://dps.psx.com.pk/download/document/276333.pdf",
-          "entered_on": "2026-08-07"
+          "entered_on": "2026-08-10"
         }
       ],
       "recent_news": [
-        {
-          "published": "Thu, 11 May 2023 18:34:10 GMT",
-          "headline": "FFC Stock Price and Chart \u2014 PSX:FFC - TradingView",
-          "source": "TradingView",
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5PVVY4VmtLS1ptQ2xLSVFBbkNORThhcnBiN2JiaXlDd1VzMm1ncnptYUhBNzVDeUw4Wk9aT2pHZVM1WkxxY2hoZ0gzNmtZdy05b1BnclJEVQ?oc=5",
-          "sentiment_label": "neutral",
-          "sentiment_score": 0.0
-        },
         {
           "published": "Wed, 28 Jan 2026 08:00:00 GMT",
           "headline": "FFC completes share issuance to Fauji Foundation - Mettis Global",
@@ -67,6 +59,14 @@
           "sentiment_score": 1.0
         },
         {
+          "published": "Tue, 08 Apr 2025 07:00:00 GMT",
+          "headline": "PSX closes above 115,500 amid high investor activity - The Express Tribune",
+          "source": "The Express Tribune",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPd2x4b1oyOV90c1c5amVfZWcwcmVaRWtnSVRLS1JSSnZ0TEVKRk9Odk00U2dJV0o5dTQtai10UlFlRWl4RWIyQk1HRGNGSVQtWElUOHd0YW9uR0FVV0lFSW5HRVBySVlBM0YtbGw3Qlg3YUgzbFpXYkNiX2pYUFRIRHN5RktmZmsyZFRyZHBZRknSAZgBQVVfeXFMUHlTV2VneXRBZTJITVRvT2xmY2pZVm9WSlc0YzMtdHQ0YUpHODhaUGRmTzdFTHFDSVUxWC12SEhTMF91QWUyU1pxY2I0bmFVTi1md2NidU5hcnNEU0FvRnd5bVlyZERfekJlWkE4MDFlY0wtOXBoT1YtMzloc1Q1LVJNWk02SEpDS0dnbGlNRVpxdS1JeGRDanA?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
+        },
+        {
           "published": "Thu, 19 Feb 2026 06:21:57 GMT",
           "headline": "PSX extends losses for third straight week as KSE-100 drops 8,920 points-INP - Independent News Pakistan",
           "source": "Independent News Pakistan",
@@ -78,25 +78,25 @@
     },
     "FATIMA": {
       "price": {
-        "date": "2026-08-07",
-        "open": 166.5,
-        "high": 166.5,
-        "low": 162.55,
-        "close": 163.68,
-        "volume": 1057531,
+        "date": "2026-08-10",
+        "open": 165.9,
+        "high": 165.9,
+        "low": 163.5,
+        "close": 164.5,
+        "volume": 494669,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-08-07",
-        "rsi_14": 58.46180707261592,
-        "macd": 1.8869506792962625,
-        "macd_signal": 1.0787590699920022,
-        "macd_hist": 0.8081916093042603,
-        "sma_20": 157.22199999999998,
-        "sma_50": 154.7712,
-        "bb_lower": 148.38052453371836,
-        "bb_mid": 157.22199999999998,
-        "bb_upper": 166.0634754662816
+        "date": "2026-08-10",
+        "rsi_14": 59.4076663603337,
+        "macd": 2.1264798605941166,
+        "macd_signal": 1.2883032281124251,
+        "macd_hist": 0.8381766324816915,
+        "sma_20": 157.5465,
+        "sma_50": 155.26419999999996,
+        "bb_lower": 148.12583006070858,
+        "bb_mid": 157.5465,
+        "bb_upper": 166.96716993929144
       },
       "fundamentals": [
         {
@@ -105,7 +105,7 @@
           "net_profit": 4189.33,
           "eps": 1.99,
           "source_url": "https://www.psx.com.pk/psx/files-attachment/?file=275979.pdf",
-          "entered_on": "2026-08-07"
+          "entered_on": "2026-08-10"
         }
       ],
       "recent_news": [
@@ -134,18 +134,18 @@
           "sentiment_score": 0.0
         },
         {
-          "published": "Tue, 10 Dec 2024 08:00:00 GMT",
-          "headline": "FATIMA's board approves demerger plan with Pakarab Fertilizers - Mettis Global",
-          "source": "Mettis Global",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcDZfUktJMGhuMGQ5QmlmbWlvcm16REtSbE5XNndyWXF3ZUJyUnZ2b19ucVVxNU44V2hIcGZ4d0xYb2hEX2V5dUcwei1qUEhEYzRHLVhTQUY1a0R0UW9ZcDQ5Y1N5SFRoNE1CNTBwOUhsZFl4YnJuMy1lMDhhWG1lSFlzMVRfVjk3TDV3eXhreTlsUQ?oc=5",
-          "sentiment_label": "neutral",
-          "sentiment_score": 0.0
-        },
-        {
           "published": "Thu, 11 May 2023 18:34:10 GMT",
           "headline": "FFC Stock Price and Chart \u2014 PSX:FFC - TradingView",
           "source": "TradingView",
           "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5PVVY4VmtLS1ptQ2xLSVFBbkNORThhcnBiN2JiaXlDd1VzMm1ncnptYUhBNzVDeUw4Wk9aT2pHZVM1WkxxY2hoZ0gzNmtZdy05b1BnclJEVQ?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
+        },
+        {
+          "published": "Thu, 08 Feb 2024 01:11:17 GMT",
+          "headline": "Fatima Fertilizer Co. Ltd. Financial Statements \u2013 PSX:FATIMA - TradingView",
+          "source": "TradingView",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzZ05zNWZ3TUhHVUhlSG1NSWw5MER3cHJGUW1JejNONFBCSGdFVDVEUzdSNG5YS1J2TXo5bXFyUmVXNHhUaTZ4SVcyMG96S2FqcllrMGlPLWlDRTh0NmFZMUQxcEcwejlXVHNxZHUwS09IME1yQ0E?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
         }
@@ -153,25 +153,25 @@
     },
     "EFERT": {
       "price": {
-        "date": "2026-08-07",
-        "open": 192.9,
-        "high": 192.9,
-        "low": 190.2,
-        "close": 190.61,
-        "volume": 554461,
+        "date": "2026-08-10",
+        "open": 190.7,
+        "high": 191.0,
+        "low": 189.0,
+        "close": 189.17,
+        "volume": 502599,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-08-07",
-        "rsi_14": 47.325121756796726,
-        "macd": -1.6391689513093866,
-        "macd_signal": -2.154806324860915,
-        "macd_hist": 0.5156373735515283,
-        "sma_20": 190.27200000000002,
-        "sma_50": 196.0036,
-        "bb_lower": 186.03251343723346,
-        "bb_mid": 190.27200000000002,
-        "bb_upper": 194.51148656276658
+        "date": "2026-08-10",
+        "rsi_14": 44.921907205779334,
+        "macd": -1.606545224727597,
+        "macd_signal": -2.0451541048342516,
+        "macd_hist": 0.43860888010665455,
+        "sma_20": 190.024,
+        "sma_50": 195.73780000000002,
+        "bb_lower": 186.17219030911104,
+        "bb_mid": 190.024,
+        "bb_upper": 193.87580969088896
       },
       "fundamentals": [
         {
@@ -180,7 +180,7 @@
           "net_profit": 2891.066,
           "eps": 2.17,
           "source_url": "https://dps.psx.com.pk/download/document/276079.pdf",
-          "entered_on": "2026-08-07"
+          "entered_on": "2026-08-10"
         }
       ],
       "recent_news": [
@@ -193,18 +193,18 @@
           "sentiment_score": 0.0
         },
         {
-          "published": "Mon, 20 Apr 2026 07:00:00 GMT",
-          "headline": "EFERT Q1CY26 profit climbs 14% - Mettis Global",
-          "source": "Mettis Global",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXbGliclYtWmd1NFlIbGRuTHk0MUlCRFZCLTFvLUJCWUt6UVF0MmRDc3ZXUDRUYi1kdEllRnUwaFlRbUo0a1VQZFJFdlYtUWk2MGN4TjFPb0gxcnN6Q3FBWThPTWt5eFF6QnVuczBB?oc=5",
-          "sentiment_label": "positive",
-          "sentiment_score": 1.0
-        },
-        {
           "published": "Mon, 08 May 2023 03:21:11 GMT",
           "headline": "EFERT Stock Price and Chart \u2014 PSX:EFERT - TradingView",
           "source": "TradingView",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnVlpNUTQ0M2FJVF9Wanl3cm1PUjY0b3NWVDJhSzdQa3Z0dFdNa2d0LV9uZjZvaGxyemVtNHMzSTVKQU9pSno5d3VpRGltQkMzRWp3NFZQQUlUZw?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
+        },
+        {
+          "published": "Tue, 05 Aug 2025 07:00:00 GMT",
+          "headline": "EFERT on track to finish Phase 1 of gas facility by end-August - Mettis Global",
+          "source": "Mettis Global",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSkxRay1oanVLYmMyTF9hY3gwSmxSRG9TdE5JUW1JejJXX2ZVV0oxdDd5c2lnQ0hybUdWOHVyX2FOaVFRdUNPMmpKSWlNSWdxeDE1eUJpdG9kN1VjODdBSE5vMlJUa3pEejVUa213bElZTVFLQXVLNldDaEVqeFJqeEtySkVONXNzSzFGa1QyUXhfRUczY2p1dw?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
         },
