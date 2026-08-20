@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-08-19T11:26:38.908172+00:00",
+  "generated_at": "2026-08-20T11:28:02.285194+00:00",
   "tickers": {
     "FFC": {
       "price": {
-        "date": "2026-08-19",
-        "open": 548.0,
-        "high": 550.0,
-        "low": 541.07,
-        "close": 542.89,
-        "volume": 595755,
+        "date": "2026-08-20",
+        "open": 543.0,
+        "high": 548.0,
+        "low": 540.9,
+        "close": 543.53,
+        "volume": 741134,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-08-19",
-        "rsi_14": 39.522363764840065,
-        "macd": -1.3748859265313058,
-        "macd_signal": 1.4263869071258697,
-        "macd_hist": -2.8012728336571753,
-        "sma_20": 557.8805000000001,
-        "sma_50": 559.2712,
-        "bb_lower": 528.0721581968904,
-        "bb_mid": 557.8805000000001,
-        "bb_upper": 587.6888418031098
+        "date": "2026-08-20",
+        "rsi_14": 40.06598540283575,
+        "macd": -2.29539196670396,
+        "macd_signal": 0.6820311323599038,
+        "macd_hist": -2.9774230990638637,
+        "sma_20": 557.8615000000001,
+        "sma_50": 559.0577999999999,
+        "bb_lower": 528.0152037297588,
+        "bb_mid": 557.8615000000001,
+        "bb_upper": 587.7077962702414
       },
       "fundamentals": [
         {
@@ -30,7 +30,7 @@
           "net_profit": 17476.826,
           "eps": 12.14,
           "source_url": "https://dps.psx.com.pk/download/document/276333.pdf",
-          "entered_on": "2026-08-19"
+          "entered_on": "2026-08-20"
         }
       ],
       "recent_news": [
@@ -51,52 +51,52 @@
           "sentiment_score": 0.333
         },
         {
-          "published": "Thu, 23 Oct 2025 07:00:00 GMT",
-          "headline": "FFC sustains profitability at Rs63bn, declares dividend at Rs9.5/share - Mettis Global",
-          "source": "Mettis Global",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSmtHdlIzUDRfNzdyLU44bUE2TUdLOG9sOExSR2Vhdi1VZVdiaG5JRkxNTlpDd3dKcHVsMlktdGU0OGYwbW9aNDJGcnlpS19RclhjcmxBNmxmc284NkVpQXdXaXhPVDhEMTh4UlJlTmo0ei1pLXFaOEpPem5KbTZVMWt0MW9qWS1wQ051ckxqdVQ2SXNGR1Qw?oc=5",
-          "sentiment_label": "positive",
-          "sentiment_score": 1.0
-        },
-        {
-          "published": "Tue, 11 Nov 2025 08:00:00 GMT",
-          "headline": "FFC to acquire remaining 25% stake in FPCL to gain ownership - Mettis Global",
-          "source": "Mettis Global",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaUtwNjBwcEwyNjMzMmp1MTJhaUJkWDZ5LXNVT1JiWmxTbGNXOHgwdF9CVEFEZ0tFZENuMDhydlBpZ1VNVFh1YV9uTXV0ZEVwTEhmOTN0VTZBdl9NU1FZVGJSYTdRZ0JMU1VHSVZ3OUQtMlVvYzNBaFZiUGViNHlweHRndkx5VGYtOXA0R0M2ZEFZUU45Ui1uNl91ak8tc0k3QjVXMjNLcXVRUElaWHM1XzRfd0cyenZtc1U4?oc=5",
-          "sentiment_label": "positive",
-          "sentiment_score": 1.0
-        },
-        {
           "published": "Tue, 24 Mar 2026 07:00:00 GMT",
-          "headline": "Mari Energies inks agreements with major fertilizer firms to boost gas supply - brecorder.com",
-          "source": "brecorder.com",
+          "headline": "Mari Energies inks agreements with major fertilizer firms to boost gas supply - Business Recorder",
+          "source": "Business Recorder",
           "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jSzl3aXBKRENxTnhUU2ppejRHN0hPZl9zb3lXOFl2bjBMR3NkYlJoRHM4VFBEekgyQ191QXJzbU1NUkN6UjNTb0JaWThBSTZaNnBNR2l30gFWQVVfeXFMTmNLOXdpcEpEQ3FOeFRTaml6NEc3SE9mX3NveVc4WXZuMExHc2RiUmhEczhUUER6SDJDX3VBcnNtTU1SQ3pSM1NvQlpZOEFJNlo2cE1HaXc?oc=5",
           "sentiment_label": "positive",
           "sentiment_score": 1.0
+        },
+        {
+          "published": "Mon, 16 Mar 2026 07:38:20 GMT",
+          "headline": "Middle East tensions drag PSX as KSE-100 loses 2.3% during week-INP - Independent News Pakistan",
+          "source": "Independent News Pakistan",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbm5uZWpMd3NUUTZCdXh2YUg4UGp3V0FHWVZfY1I0SjJ5eXdIT0Z0ZEJwUVdoMW54RkdFVW9qVTMwUkZYWTBUdl9MczdaT21JYWpldHowYkRoUFlsaUt4NVp0eHZQeHFkYklmQ2NELV9uUDVLblA2MEtNVjRnc29qN3dEcm9VNDMwLU4tUFkzLUl6SjgyMFJNU3dIT3RTR1AtbzYzMW9vNzE1T3NndVhjRkt3?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
+        },
+        {
+          "published": "Thu, 19 Feb 2026 06:21:57 GMT",
+          "headline": "PSX extends losses for third straight week as KSE-100 drops 8,920 points-INP - Independent News Pakistan",
+          "source": "Independent News Pakistan",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZHR0NmlKTmZ4Y2VFb08tblFtQ1gxREluaUlhVnBRRUFyc3N3dkxGdlJmRWEwSnBLVjBWVVJsR2s3ZTBDb2hIOE5jYlRSVkpzdTB2bGU2ajJPT3g0MmU2eFNaa1U2YkgwdE1NQWpCazNtU095b0RqUngzb0s1RlFrYlROMTVhQm1fSUtoMlZBZVdsVUNxbVJnLVhfbmQ0NVloNU11dTllOUNWV3ByUnp1clNDWkh4bkRpaW5nT0Izbw?oc=5",
+          "sentiment_label": "negative",
+          "sentiment_score": -1.0
         }
       ]
     },
     "FATIMA": {
       "price": {
-        "date": "2026-08-19",
+        "date": "2026-08-20",
         "open": 160.0,
-        "high": 166.5,
-        "low": 160.0,
-        "close": 161.25,
-        "volume": 1625320,
+        "high": 160.0,
+        "low": 152.0,
+        "close": 156.15,
+        "volume": 1950462,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-08-19",
-        "rsi_14": 52.245269141522,
-        "macd": 1.8776067726090275,
-        "macd_signal": 1.973071944730266,
-        "macd_hist": -0.0954651721212385,
-        "sma_20": 159.587,
-        "sma_50": 157.92519999999996,
-        "bb_lower": 149.41295645256702,
-        "bb_mid": 159.587,
-        "bb_upper": 169.76104354743296
+        "date": "2026-08-20",
+        "rsi_14": 44.33528285855973,
+        "macd": 1.2731479799123804,
+        "macd_signal": 1.833087151766689,
+        "macd_hist": -0.5599391718543085,
+        "sma_20": 159.62,
+        "sma_50": 158.22739999999996,
+        "bb_lower": 149.49775976533752,
+        "bb_mid": 159.62,
+        "bb_upper": 169.7422402346625
       },
       "fundamentals": [
         {
@@ -105,7 +105,7 @@
           "net_profit": 4189.33,
           "eps": 1.99,
           "source_url": "https://www.psx.com.pk/psx/files-attachment/?file=275979.pdf",
-          "entered_on": "2026-08-19"
+          "entered_on": "2026-08-20"
         }
       ],
       "recent_news": [
@@ -153,25 +153,25 @@
     },
     "EFERT": {
       "price": {
-        "date": "2026-08-19",
-        "open": 185.8,
-        "high": 185.99,
-        "low": 184.0,
-        "close": 185.38,
-        "volume": 631338,
+        "date": "2026-08-20",
+        "open": 185.1,
+        "high": 185.38,
+        "low": 182.01,
+        "close": 183.23,
+        "volume": 788978,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-08-19",
-        "rsi_14": 39.76779113426762,
-        "macd": -2.149912947706383,
-        "macd_signal": -2.0436138577440355,
-        "macd_hist": -0.10629908996234771,
-        "sma_20": 188.3805,
-        "sma_50": 193.73160000000001,
-        "bb_lower": 184.00249528743407,
-        "bb_mid": 188.3805,
-        "bb_upper": 192.75850471256595
+        "date": "2026-08-20",
+        "rsi_14": 36.115802741260566,
+        "macd": -2.3262626736187997,
+        "macd_signal": -2.1001436209189883,
+        "macd_hist": -0.22611905269981136,
+        "sma_20": 188.03,
+        "sma_50": 193.4298,
+        "bb_lower": 183.18165139345172,
+        "bb_mid": 188.03,
+        "bb_upper": 192.8783486065483
       },
       "fundamentals": [
         {
@@ -180,7 +180,7 @@
           "net_profit": 2891.066,
           "eps": 2.17,
           "source_url": "https://dps.psx.com.pk/download/document/276079.pdf",
-          "entered_on": "2026-08-19"
+          "entered_on": "2026-08-20"
         }
       ],
       "recent_news": [
@@ -191,14 +191,6 @@
           "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE03UjlVOGZUenhOZUlWYzYxTUlIRWRBbkhkbjZBaGZMVUNVZG1oeXBjUU5Ec0k1eHNmdi1zWmdZUHRoLUtwQ3RzVWtrZU9vcnVicU1CZkNmZ2ZTY2ttMDc1cVdpQ3MwUlFrcmlTQkZlQnFWeGpsQlpZ?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
-        },
-        {
-          "published": "Mon, 20 Apr 2026 07:00:00 GMT",
-          "headline": "EFERT Q1CY26 profit climbs 14% - Mettis Global",
-          "source": "Mettis Global",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXbGliclYtWmd1NFlIbGRuTHk0MUlCRFZCLTFvLUJCWUt6UVF0MmRDc3ZXUDRUYi1kdEllRnUwaFlRbUo0a1VQZFJFdlYtUWk2MGN4TjFPb0gxcnN6Q3FBWThPTWt5eFF6QnVuczBB?oc=5",
-          "sentiment_label": "positive",
-          "sentiment_score": 1.0
         },
         {
           "published": "Mon, 08 May 2023 03:21:11 GMT",
@@ -217,10 +209,18 @@
           "sentiment_score": 1.0
         },
         {
-          "published": "Sat, 19 Jul 2025 07:00:00 GMT",
-          "headline": "Engro Fertilizer Joins $1 Billion Dollar Club On PSX - Digital Pakistan",
-          "source": "Digital Pakistan",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOekZ3Z0xSNkhHSkZlZ016Z3FzeFFJcHVmXzBJd3lsNnY4UmlMRTR5SnJLXzh6Q2xMaTBwLTVVQjVsTldranZMT1lEYnoxdlIySWlQeDNwdEFQVjREQ1dZZzNJVmwyTmEyUzl3b0Yzb2VBMThZNmQ4NnpOLVVfM1FudDFWY20zUQ?oc=5",
+          "published": "Sat, 03 Jan 2026 08:00:00 GMT",
+          "headline": "EPCL Stock Price and Chart \u2014 PSX:EPCL - TradingView",
+          "source": "TradingView",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5pekJSWG9Pa1VwZW95TmU0cGZ3bmtxZ1FkTVlEa3o1NWdtWjFtLTZINHNub2Y1MmVoX1lycGNXU3J4NkdKNWZEVWJYYjZEWEw0QUsxbW85ZlA?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
+        },
+        {
+          "published": "Sat, 09 Dec 2023 08:00:00 GMT",
+          "headline": "Engro Corporation, its listed subsidiaries recognised among top 10 recipients at PSX awards - The Nation (Pakistan )",
+          "source": "The Nation (Pakistan )",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOc0lrN2xKR1FTZm81NWRrUXlOclQ1a2o0SVhTWEltT2xLejVZbXIxOXVoNTc3X0hRRXFSeVRKbnBtYXZSWFh2NlZWckpoYW9QVnIzVDRObFlmQTJvOE5YMDRZVmV1RGRJTHB0T2xnWWNhME14UXhsU1NoQWZ2QmpCRnU3Z2hqMkFqVmlEVE03XzVZVWc2cDV2RUw4TVlyVDktWlp5ZzZMd3NYbjU3Vk92bGdVSDVGTEtuN0d2bFlGMGo1b0NyVFZr?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
         }
