@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-08-20T11:28:02.285194+00:00",
+  "generated_at": "2026-08-21T11:27:44.680685+00:00",
   "tickers": {
     "FFC": {
       "price": {
-        "date": "2026-08-20",
-        "open": 543.0,
-        "high": 548.0,
-        "low": 540.9,
-        "close": 543.53,
-        "volume": 741134,
+        "date": "2026-08-21",
+        "open": 545.95,
+        "high": 546.74,
+        "low": 542.21,
+        "close": 544.89,
+        "volume": 337838,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-08-20",
-        "rsi_14": 40.06598540283575,
-        "macd": -2.29539196670396,
-        "macd_signal": 0.6820311323599038,
-        "macd_hist": -2.9774230990638637,
-        "sma_20": 557.8615000000001,
-        "sma_50": 559.0577999999999,
-        "bb_lower": 528.0152037297588,
-        "bb_mid": 557.8615000000001,
-        "bb_upper": 587.7077962702414
+        "date": "2026-08-21",
+        "rsi_14": 41.27401030986098,
+        "macd": -2.881937816221466,
+        "macd_signal": -0.030762657356370293,
+        "macd_hist": -2.8511751588650958,
+        "sma_20": 558.3495,
+        "sma_50": 558.8583999999998,
+        "bb_lower": 529.7761134314047,
+        "bb_mid": 558.3495,
+        "bb_upper": 586.9228865685953
       },
       "fundamentals": [
         {
@@ -30,7 +30,7 @@
           "net_profit": 17476.826,
           "eps": 12.14,
           "source_url": "https://dps.psx.com.pk/download/document/276333.pdf",
-          "entered_on": "2026-08-20"
+          "entered_on": "2026-08-21"
         }
       ],
       "recent_news": [
@@ -54,7 +54,7 @@
           "published": "Tue, 24 Mar 2026 07:00:00 GMT",
           "headline": "Mari Energies inks agreements with major fertilizer firms to boost gas supply - Business Recorder",
           "source": "Business Recorder",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jSzl3aXBKRENxTnhUU2ppejRHN0hPZl9zb3lXOFl2bjBMR3NkYlJoRHM4VFBEekgyQ191QXJzbU1NUkN6UjNTb0JaWThBSTZaNnBNR2l30gFWQVVfeXFMTmNLOXdpcEpEQ3FOeFRTaml6NEc3SE9mX3NveVc4WXZuMExHc2RiUmhEczhUUER6SDJDX3VBcnNtTU1SQ3pSM1NvQlpZOEFJNlo2cE1HaXc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUThublBCZ0JwVk1PZG9JVGQxaVJ0N3dXLVRaTzdwTEFSdkt2ZGwyUTVvTFNvVC1jNVFsTVMzRlo4d2FqQzNpRFplNzJLRVFoV1UxaVFjV0ZVNEZuQ2k0cXdlUjI1Rnl1MzlkRFR0bjZEQmRrWDBuOE80NlFVZU1lYm9pcnc3dFcwTVgxRmU5WFQ0bE11ZlN0SkRoYUl0a0J4Tm8zVlo2T0tJLWpaWEFhV0ZrS3cwSVQ30gFWQVVfeXFMTmNLOXdpcEpEQ3FOeFRTaml6NEc3SE9mX3NveVc4WXZuMExHc2RiUmhEczhUUER6SDJDX3VBcnNtTU1SQ3pSM1NvQlpZOEFJNlo2cE1HaXc?oc=5",
           "sentiment_label": "positive",
           "sentiment_score": 1.0
         },
@@ -78,25 +78,25 @@
     },
     "FATIMA": {
       "price": {
-        "date": "2026-08-20",
-        "open": 160.0,
-        "high": 160.0,
-        "low": 152.0,
-        "close": 156.15,
-        "volume": 1950462,
+        "date": "2026-08-21",
+        "open": 156.14,
+        "high": 160.44,
+        "low": 156.14,
+        "close": 159.12,
+        "volume": 1571581,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-08-20",
-        "rsi_14": 44.33528285855973,
-        "macd": 1.2731479799123804,
-        "macd_signal": 1.833087151766689,
-        "macd_hist": -0.5599391718543085,
-        "sma_20": 159.62,
-        "sma_50": 158.22739999999996,
-        "bb_lower": 149.49775976533752,
-        "bb_mid": 159.62,
-        "bb_upper": 169.7422402346625
+        "date": "2026-08-21",
+        "rsi_14": 49.16236871201714,
+        "macd": 1.0219834217607229,
+        "macd_signal": 1.6708664057654958,
+        "macd_hist": -0.648882984004773,
+        "sma_20": 160.03249999999997,
+        "sma_50": 158.58579999999998,
+        "bb_lower": 150.77628530250547,
+        "bb_mid": 160.03249999999997,
+        "bb_upper": 169.28871469749447
       },
       "fundamentals": [
         {
@@ -105,7 +105,7 @@
           "net_profit": 4189.33,
           "eps": 1.99,
           "source_url": "https://www.psx.com.pk/psx/files-attachment/?file=275979.pdf",
-          "entered_on": "2026-08-20"
+          "entered_on": "2026-08-21"
         }
       ],
       "recent_news": [
@@ -114,14 +114,6 @@
           "headline": "FATIMA Forecast \u2014 Price Target \u2014 Prediction for 2027 - TradingView",
           "source": "TradingView",
           "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBEODl0Sk80b04zVE9fMGI5cXlTUXdnVVRGcUF1LUpGdjBlWkJ4YktZMWp2bzZtRjdfN0trV1N2dXBXdUdEX2NHcFMwT2lfTDhUTE5ON1RHYUpxTGltbTd2U2hsdFplS3ZIZDQ0RFZNdHVScGU2ejNPQw?oc=5",
-          "sentiment_label": "neutral",
-          "sentiment_score": 0.0
-        },
-        {
-          "published": "Fri, 23 Aug 2024 07:00:00 GMT",
-          "headline": "FATIMA announces plan to acquire stake in Agritech Limited - Mettis Global",
-          "source": "Mettis Global",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSXZmT1QwX2Zud2djc0VIeDRCenF0UGxPc2VFQ3haZUtueU5wcDJyeG1rakVlS0ZzM28yQ1E2YjR6Wk9ob0dXVkdPVzRPdGFsR1hoUDFjMWpUWWs3R19qLWhKTWdGU2FBdmk3ZjVHWklkN2FlUFM1UWJNWHlhRWpsc3pZQXlKb3A3XzE2cFJ3?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
         },
@@ -143,6 +135,14 @@
         },
         {
           "published": "Mon, 28 Jul 2025 07:00:00 GMT",
+          "headline": "FFCL acquires 100% stake of Fatima Petroleum Company Limited - Business Recorder",
+          "source": "Business Recorder",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQmtsRWh1REZSN3Y0c2ZqaGxmRkZDQlJDVVVscTJ4YXFvbjRNWEpZYlJfMVpzR29KWW1aVTJFdHRsbEFrS28tUDh1bjkzZ2NxMFpSTm5na0FyUmh6dzZVN0xvYS01d3dFM21VcUJEV1Y4RkIwaWpxZFFvbXF4OVpNOXF2eWtmZVZTcUt5dE9XNTQweVhvVGlGdEZlZ09adXlT0gFWQVVfeXFMTWJSYTZCTjRUa3lWTWRQR1FGTGVWLUVzU1lrS3BZdGd2RENGSVJTLThnclJtbnlEbHhjYUhwQldKR1FBZWExX2lucjV1Z29hb3lfeW4wUmc?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
+        },
+        {
+          "published": "Mon, 28 Jul 2025 07:00:00 GMT",
           "headline": "Fatima Fertilizer Board approves 100% acquisition of Fatima Petroleum - Mettis Global",
           "source": "Mettis Global",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOR0F0V2xWNjdrQUQ2ZDMxejZnd01TTk5PUndYS1djbTExMTJfb2VDQi1wTmRvY1RKQUduWkM0bVktZ3VjNHNVVFlTNlcxS2xzd2piY3ljTy13TU1qbGh5Rnc5M08zMFE0WFp4TFItWGcyZW9uYzJBZE9vRmlYNEd3SlFYNldzQ1ZMejdBLUVqUjRQeF9kS3pWLVEyUklxZGZVVGc?oc=5",
@@ -153,25 +153,25 @@
     },
     "EFERT": {
       "price": {
-        "date": "2026-08-20",
-        "open": 185.1,
-        "high": 185.38,
-        "low": 182.01,
-        "close": 183.23,
-        "volume": 788978,
+        "date": "2026-08-21",
+        "open": 183.23,
+        "high": 184.5,
+        "low": 182.0,
+        "close": 183.8,
+        "volume": 343675,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-08-20",
-        "rsi_14": 36.115802741260566,
-        "macd": -2.3262626736187997,
-        "macd_signal": -2.1001436209189883,
-        "macd_hist": -0.22611905269981136,
-        "sma_20": 188.03,
-        "sma_50": 193.4298,
-        "bb_lower": 183.18165139345172,
-        "bb_mid": 188.03,
-        "bb_upper": 192.8783486065483
+        "date": "2026-08-21",
+        "rsi_14": 37.747998766472435,
+        "macd": -2.392448211885011,
+        "macd_signal": -2.1586045391121926,
+        "macd_hist": -0.23384367277281815,
+        "sma_20": 187.8455,
+        "sma_50": 193.1064,
+        "bb_lower": 182.642741723441,
+        "bb_mid": 187.8455,
+        "bb_upper": 193.04825827655898
       },
       "fundamentals": [
         {
@@ -180,7 +180,7 @@
           "net_profit": 2891.066,
           "eps": 2.17,
           "source_url": "https://dps.psx.com.pk/download/document/276079.pdf",
-          "entered_on": "2026-08-20"
+          "entered_on": "2026-08-21"
         }
       ],
       "recent_news": [
@@ -217,10 +217,10 @@
           "sentiment_score": 0.0
         },
         {
-          "published": "Sat, 09 Dec 2023 08:00:00 GMT",
-          "headline": "Engro Corporation, its listed subsidiaries recognised among top 10 recipients at PSX awards - The Nation (Pakistan )",
-          "source": "The Nation (Pakistan )",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOc0lrN2xKR1FTZm81NWRrUXlOclQ1a2o0SVhTWEltT2xLejVZbXIxOXVoNTc3X0hRRXFSeVRKbnBtYXZSWFh2NlZWckpoYW9QVnIzVDRObFlmQTJvOE5YMDRZVmV1RGRJTHB0T2xnWWNhME14UXhsU1NoQWZ2QmpCRnU3Z2hqMkFqVmlEVE03XzVZVWc2cDV2RUw4TVlyVDktWlp5ZzZMd3NYbjU3Vk92bGdVSDVGTEtuN0d2bFlGMGo1b0NyVFZr?oc=5",
+          "published": "Sat, 19 Jul 2025 07:00:00 GMT",
+          "headline": "Engro Fertilizer Joins $1 Billion Dollar Club On PSX - Digital Pakistan",
+          "source": "Digital Pakistan",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOekZ3Z0xSNkhHSkZlZ016Z3FzeFFJcHVmXzBJd3lsNnY4UmlMRTR5SnJLXzh6Q2xMaTBwLTVVQjVsTldranZMT1lEYnoxdlIySWlQeDNwdEFQVjREQ1dZZzNJVmwyTmEyUzl3b0Yzb2VBMThZNmQ4NnpOLVVfM1FudDFWY20zUQ?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
         }
