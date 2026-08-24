@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-08-21T11:27:44.680685+00:00",
+  "generated_at": "2026-08-24T11:30:26.028770+00:00",
   "tickers": {
     "FFC": {
       "price": {
-        "date": "2026-08-21",
-        "open": 545.95,
-        "high": 546.74,
-        "low": 542.21,
-        "close": 544.89,
-        "volume": 337838,
+        "date": "2026-08-24",
+        "open": 547.0,
+        "high": 550.5,
+        "low": 543.5,
+        "close": 544.83,
+        "volume": 619873,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-08-21",
-        "rsi_14": 41.27401030986098,
-        "macd": -2.881937816221466,
-        "macd_signal": -0.030762657356370293,
-        "macd_hist": -2.8511751588650958,
-        "sma_20": 558.3495,
-        "sma_50": 558.8583999999998,
-        "bb_lower": 529.7761134314047,
-        "bb_mid": 558.3495,
-        "bb_upper": 586.9228865685953
+        "date": "2026-08-24",
+        "rsi_14": 41.26128705326519,
+        "macd": -3.3534597797663537,
+        "macd_signal": -0.7035983781346516,
+        "macd_hist": -2.649861401631702,
+        "sma_20": 558.8825,
+        "sma_50": 558.6704,
+        "bb_lower": 531.9065131150049,
+        "bb_mid": 558.8825,
+        "bb_upper": 585.8584868849952
       },
       "fundamentals": [
         {
@@ -30,7 +30,7 @@
           "net_profit": 17476.826,
           "eps": 12.14,
           "source_url": "https://dps.psx.com.pk/download/document/276333.pdf",
-          "entered_on": "2026-08-21"
+          "entered_on": "2026-08-24"
         }
       ],
       "recent_news": [
@@ -41,6 +41,14 @@
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOODBDODFUMmxkZmx3V0JDUzM2TUZ1OFNjTnR5OUszSW1JOEt2bzJJV3B4WXp1Zkttd3puU2xUenkxUFJ2MmREVWQ5YU1ZQ1ZnRUZueUFrOUNqM0piNmtoNENNekltQ0hHRlEwUlBHME5BM0xMcml4ejU3RkJOMUtlQWg2MHlvd3c?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
+        },
+        {
+          "published": "Wed, 29 Jul 2026 07:38:22 GMT",
+          "headline": "FFC declares Rs14.5/share dividend - Mettis Global",
+          "source": "Mettis Global",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSUNUZ0J0azlYa3FYOThsbEhIWW5EQ2UzRjFXOVZLelplSThVR0JCa2FLMG1qWnlXNW96STNXRThuTWRzUnZYYTVWYmlvMngwVGhmeTZjR0lmRjlxT0w0NlI1eW05ZTdGOTVvMGtVSjZnUnFCNHJuTjdUdVAtNUlkem9uY3JOVHhD?oc=5",
+          "sentiment_label": "positive",
+          "sentiment_score": 1.0
         },
         {
           "published": "Thu, 29 Jan 2026 08:00:00 GMT",
@@ -65,38 +73,30 @@
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbm5uZWpMd3NUUTZCdXh2YUg4UGp3V0FHWVZfY1I0SjJ5eXdIT0Z0ZEJwUVdoMW54RkdFVW9qVTMwUkZYWTBUdl9MczdaT21JYWpldHowYkRoUFlsaUt4NVp0eHZQeHFkYklmQ2NELV9uUDVLblA2MEtNVjRnc29qN3dEcm9VNDMwLU4tUFkzLUl6SjgyMFJNU3dIT3RTR1AtbzYzMW9vNzE1T3NndVhjRkt3?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
-        },
-        {
-          "published": "Thu, 19 Feb 2026 06:21:57 GMT",
-          "headline": "PSX extends losses for third straight week as KSE-100 drops 8,920 points-INP - Independent News Pakistan",
-          "source": "Independent News Pakistan",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZHR0NmlKTmZ4Y2VFb08tblFtQ1gxREluaUlhVnBRRUFyc3N3dkxGdlJmRWEwSnBLVjBWVVJsR2s3ZTBDb2hIOE5jYlRSVkpzdTB2bGU2ajJPT3g0MmU2eFNaa1U2YkgwdE1NQWpCazNtU095b0RqUngzb0s1RlFrYlROMTVhQm1fSUtoMlZBZVdsVUNxbVJnLVhfbmQ0NVloNU11dTllOUNWV3ByUnp1clNDWkh4bkRpaW5nT0Izbw?oc=5",
-          "sentiment_label": "negative",
-          "sentiment_score": -1.0
         }
       ]
     },
     "FATIMA": {
       "price": {
-        "date": "2026-08-21",
-        "open": 156.14,
-        "high": 160.44,
-        "low": 156.14,
-        "close": 159.12,
-        "volume": 1571581,
+        "date": "2026-08-24",
+        "open": 160.5,
+        "high": 160.55,
+        "low": 156.9,
+        "close": 158.07,
+        "volume": 639360,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-08-21",
-        "rsi_14": 49.16236871201714,
-        "macd": 1.0219834217607229,
-        "macd_signal": 1.6708664057654958,
-        "macd_hist": -0.648882984004773,
-        "sma_20": 160.03249999999997,
-        "sma_50": 158.58579999999998,
-        "bb_lower": 150.77628530250547,
-        "bb_mid": 160.03249999999997,
-        "bb_upper": 169.28871469749447
+        "date": "2026-08-24",
+        "rsi_14": 47.602949422421055,
+        "macd": 0.7525833056923545,
+        "macd_signal": 1.4919322928733734,
+        "macd_hist": -0.7393489871810188,
+        "sma_20": 160.435,
+        "sma_50": 158.94079999999997,
+        "bb_lower": 152.30366619345384,
+        "bb_mid": 160.435,
+        "bb_upper": 168.56633380654617
       },
       "fundamentals": [
         {
@@ -105,7 +105,7 @@
           "net_profit": 4189.33,
           "eps": 1.99,
           "source_url": "https://www.psx.com.pk/psx/files-attachment/?file=275979.pdf",
-          "entered_on": "2026-08-21"
+          "entered_on": "2026-08-24"
         }
       ],
       "recent_news": [
@@ -134,18 +134,18 @@
           "sentiment_score": 0.0
         },
         {
-          "published": "Mon, 28 Jul 2025 07:00:00 GMT",
-          "headline": "FFCL acquires 100% stake of Fatima Petroleum Company Limited - Business Recorder",
-          "source": "Business Recorder",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQmtsRWh1REZSN3Y0c2ZqaGxmRkZDQlJDVVVscTJ4YXFvbjRNWEpZYlJfMVpzR29KWW1aVTJFdHRsbEFrS28tUDh1bjkzZ2NxMFpSTm5na0FyUmh6dzZVN0xvYS01d3dFM21VcUJEV1Y4RkIwaWpxZFFvbXF4OVpNOXF2eWtmZVZTcUt5dE9XNTQweVhvVGlGdEZlZ09adXlT0gFWQVVfeXFMTWJSYTZCTjRUa3lWTWRQR1FGTGVWLUVzU1lrS3BZdGd2RENGSVJTLThnclJtbnlEbHhjYUhwQldKR1FBZWExX2lucjV1Z29hb3lfeW4wUmc?oc=5",
+          "published": "Thu, 08 Feb 2024 01:11:17 GMT",
+          "headline": "Fatima Fertilizer Co. Ltd. Financial Statements \u2013 PSX:FATIMA - TradingView",
+          "source": "TradingView",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzZ05zNWZ3TUhHVUhlSG1NSWw5MER3cHJGUW1JejNONFBCSGdFVDVEUzdSNG5YS1J2TXo5bXFyUmVXNHhUaTZ4SVcyMG96S2FqcllrMGlPLWlDRTh0NmFZMUQxcEcwejlXVHNxZHUwS09IME1yQ0E?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
         },
         {
-          "published": "Mon, 28 Jul 2025 07:00:00 GMT",
-          "headline": "Fatima Fertilizer Board approves 100% acquisition of Fatima Petroleum - Mettis Global",
-          "source": "Mettis Global",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOR0F0V2xWNjdrQUQ2ZDMxejZnd01TTk5PUndYS1djbTExMTJfb2VDQi1wTmRvY1RKQUduWkM0bVktZ3VjNHNVVFlTNlcxS2xzd2piY3ljTy13TU1qbGh5Rnc5M08zMFE0WFp4TFItWGcyZW9uYzJBZE9vRmlYNEd3SlFYNldzQ1ZMejdBLUVqUjRQeF9kS3pWLVEyUklxZGZVVGc?oc=5",
+          "published": "Fri, 21 Aug 2026 00:34:39 GMT",
+          "headline": "Fatima Fertilizer Company Limited - Business Recorder",
+          "source": "Business Recorder",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9uR1c0S2Z6dU0wYmp0MlNMLUFmOE5wNzFWMXR3UndQT3EzLU1qVG13dnMzWHRobVh5YThUM0MxTERPMUo1R0ZFWlRvWThxR2ltYmtQNTJR0gFWQVVfeXFMT25HVzRLZnp1TTBianQyU0wtQWY4TnA3MVYxdHdSd1BPcTMtTWpUbXd2czNYdGhtWHlhOFQzQzFMRE8xSjVHRkVaVG9ZOHFHaW1ia1A1MlE?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
         }
@@ -153,25 +153,25 @@
     },
     "EFERT": {
       "price": {
-        "date": "2026-08-21",
-        "open": 183.23,
-        "high": 184.5,
-        "low": 182.0,
-        "close": 183.8,
-        "volume": 343675,
+        "date": "2026-08-24",
+        "open": 182.01,
+        "high": 184.55,
+        "low": 182.01,
+        "close": 182.77,
+        "volume": 825270,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-08-21",
-        "rsi_14": 37.747998766472435,
-        "macd": -2.392448211885011,
-        "macd_signal": -2.1586045391121926,
-        "macd_hist": -0.23384367277281815,
-        "sma_20": 187.8455,
-        "sma_50": 193.1064,
-        "bb_lower": 182.642741723441,
-        "bb_mid": 187.8455,
-        "bb_upper": 193.04825827655898
+        "date": "2026-08-24",
+        "rsi_14": 36.182923808811225,
+        "macd": -2.486269867485703,
+        "macd_signal": -2.2214572629065534,
+        "macd_hist": -0.26481260457914946,
+        "sma_20": 187.626,
+        "sma_50": 192.78160000000003,
+        "bb_lower": 181.97860134406645,
+        "bb_mid": 187.626,
+        "bb_upper": 193.27339865593356
       },
       "fundamentals": [
         {
@@ -180,7 +180,7 @@
           "net_profit": 2891.066,
           "eps": 2.17,
           "source_url": "https://dps.psx.com.pk/download/document/276079.pdf",
-          "entered_on": "2026-08-21"
+          "entered_on": "2026-08-24"
         }
       ],
       "recent_news": [
@@ -201,18 +201,18 @@
           "sentiment_score": 0.0
         },
         {
-          "published": "Wed, 30 Jul 2025 07:00:00 GMT",
-          "headline": "EFERT lifts half-year dividend to Rs6.5 per share despite profit dip - Mettis Global",
+          "published": "Tue, 05 Aug 2025 07:00:00 GMT",
+          "headline": "EFERT on track to finish Phase 1 of gas facility by end-August - Mettis Global",
           "source": "Mettis Global",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWDR1bEwxaVJPa2tVU1E1ZWZkaFFCOFN3X3lvNDl4bmtVdW9lRzJiR2lRX2VKRUZPcGRtNFhyaFRZSXdLajBwUHc1NDdaekx3d3JTVnJJUTFHN245eTlMR3lBamJuLXhmY2tEZVNDWjhxaElmMlhBOGl3RDRRazJXNkxQeS0zZXhLendZLVpnc3hwNWN4QVdOelhLQjFsUFU?oc=5",
-          "sentiment_label": "positive",
-          "sentiment_score": 1.0
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSkxRay1oanVLYmMyTF9hY3gwSmxSRG9TdE5JUW1JejJXX2ZVV0oxdDd5c2lnQ0hybUdWOHVyX2FOaVFRdUNPMmpKSWlNSWdxeDE1eUJpdG9kN1VjODdBSE5vMlJUa3pEejVUa213bElZTVFLQXVLNldDaEVqeFJqeEtySkVONXNzSzFGa1QyUXhfRUczY2p1dw?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
         },
         {
-          "published": "Sat, 03 Jan 2026 08:00:00 GMT",
-          "headline": "EPCL Stock Price and Chart \u2014 PSX:EPCL - TradingView",
+          "published": "Tue, 14 Jan 2025 06:51:07 GMT",
+          "headline": "ENGROH Stock Price and Chart \u2014 PSX:ENGROH - TradingView",
           "source": "TradingView",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5pekJSWG9Pa1VwZW95TmU0cGZ3bmtxZ1FkTVlEa3o1NWdtWjFtLTZINHNub2Y1MmVoX1lycGNXU3J4NkdKNWZEVWJYYjZEWEw0QUsxbW85ZlA?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CenI3ajBFTTlJeXRMdVFxbXpyaFNUSk1rYkQ1YmMxX2liMmdReWptcjlDUmhPdHVwT1NqMkpYbWVVX18ycC1yc3VQQXJqbXp1eGp3eXBzQXk2X1E?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
         },
