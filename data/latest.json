@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-09-07T16:18:59.679603+00:00",
+  "generated_at": "2026-09-08T14:57:44.674694+00:00",
   "tickers": {
     "FFC": {
       "price": {
-        "date": "2026-09-07",
-        "open": 548.88,
+        "date": "2026-09-08",
+        "open": 546.0,
         "high": 549.0,
-        "low": 544.0,
-        "close": 545.5,
-        "volume": 500240,
+        "low": 540.2,
+        "close": 546.25,
+        "volume": 494397,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-09-07",
-        "rsi_14": 41.760244629261386,
-        "macd": -2.5977616583459167,
-        "macd_signal": -2.333418121410863,
-        "macd_hist": -0.2643435369350535,
-        "sma_20": 551.5044999999999,
-        "sma_50": 556.6521999999999,
-        "bb_lower": 533.3410288791938,
-        "bb_mid": 551.5044999999999,
-        "bb_upper": 569.667971120806
+        "date": "2026-09-08",
+        "rsi_14": 42.82621579616655,
+        "macd": -2.65841404629532,
+        "macd_signal": -2.3984173063877545,
+        "macd_hist": -0.25999673990756555,
+        "sma_20": 549.643,
+        "sma_50": 556.4035999999999,
+        "bb_lower": 539.3529535063932,
+        "bb_mid": 549.643,
+        "bb_upper": 559.9330464936069
       },
       "fundamentals": [
         {
@@ -30,7 +30,7 @@
           "net_profit": 17476.826,
           "eps": 12.14,
           "source_url": "https://dps.psx.com.pk/download/document/276333.pdf",
-          "entered_on": "2026-09-07"
+          "entered_on": "2026-09-08"
         }
       ],
       "recent_news": [
@@ -43,7 +43,7 @@
           "sentiment_score": 0.0
         },
         {
-          "published": "Wed, 29 Jul 2026 07:00:00 GMT",
+          "published": "Wed, 29 Jul 2026 07:38:22 GMT",
           "headline": "FFC declares Rs14.5/share dividend - Mettis Global",
           "source": "Mettis Global",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSUNUZ0J0azlYa3FYOThsbEhIWW5EQ2UzRjFXOVZLelplSThVR0JCa2FLMG1qWnlXNW96STNXRThuTWRzUnZYYTVWYmlvMngwVGhmeTZjR0lmRjlxT0w0NlI1eW05ZTdGOTVvMGtVSjZnUnFCNHJuTjdUdVAtNUlkem9uY3JOVHhD?oc=5",
@@ -59,44 +59,44 @@
           "sentiment_score": 0.333
         },
         {
-          "published": "Tue, 24 Mar 2026 07:00:00 GMT",
-          "headline": "Mari Energies inks agreements with major fertilizer firms to boost gas supply - Business Recorder",
-          "source": "Business Recorder",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUThublBCZ0JwVk1PZG9JVGQxaVJ0N3dXLVRaTzdwTEFSdkt2ZGwyUTVvTFNvVC1jNVFsTVMzRlo4d2FqQzNpRFplNzJLRVFoV1UxaVFjV0ZVNEZuQ2k0cXdlUjI1Rnl1MzlkRFR0bjZEQmRrWDBuOE80NlFVZU1lYm9pcnc3dFcwTVgxRmU5WFQ0bE11ZlN0SkRoYUl0a0J4Tm8zVlo2T0tJLWpaWEFhV0ZrS3cwSVQ30gFWQVVfeXFMTmNLOXdpcEpEQ3FOeFRTaml6NEc3SE9mX3NveVc4WXZuMExHc2RiUmhEczhUUER6SDJDX3VBcnNtTU1SQ3pSM1NvQlpZOEFJNlo2cE1HaXc?oc=5",
+          "published": "Tue, 11 Nov 2025 08:00:00 GMT",
+          "headline": "FFC to acquire remaining 25% stake in FPCL to gain ownership - Mettis Global",
+          "source": "Mettis Global",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaUtwNjBwcEwyNjMzMmp1MTJhaUJkWDZ5LXNVT1JiWmxTbGNXOHgwdF9CVEFEZ0tFZENuMDhydlBpZ1VNVFh1YV9uTXV0ZEVwTEhmOTN0VTZBdl9NU1FZVGJSYTdRZ0JMU1VHSVZ3OUQtMlVvYzNBaFZiUGViNHlweHRndkx5VGYtOXA0R0M2ZEFZUU45Ui1uNl91ak8tc0k3QjVXMjNLcXVRUElaWHM1XzRfd0cyenZtc1U4?oc=5",
           "sentiment_label": "positive",
           "sentiment_score": 1.0
         },
         {
-          "published": "Mon, 16 Mar 2026 07:38:20 GMT",
-          "headline": "Middle East tensions drag PSX as KSE-100 loses 2.3% during week-INP - Independent News Pakistan",
-          "source": "Independent News Pakistan",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbm5uZWpMd3NUUTZCdXh2YUg4UGp3V0FHWVZfY1I0SjJ5eXdIT0Z0ZEJwUVdoMW54RkdFVW9qVTMwUkZYWTBUdl9MczdaT21JYWpldHowYkRoUFlsaUt4NVp0eHZQeHFkYklmQ2NELV9uUDVLblA2MEtNVjRnc29qN3dEcm9VNDMwLU4tUFkzLUl6SjgyMFJNU3dIT3RTR1AtbzYzMW9vNzE1T3NndVhjRkt3?oc=5",
-          "sentiment_label": "neutral",
-          "sentiment_score": 0.0
+          "published": "Tue, 24 Mar 2026 07:00:00 GMT",
+          "headline": "Mari Energies inks agreements with major fertilizer firms to boost gas supply - brecorder.com",
+          "source": "brecorder.com",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUThublBCZ0JwVk1PZG9JVGQxaVJ0N3dXLVRaTzdwTEFSdkt2ZGwyUTVvTFNvVC1jNVFsTVMzRlo4d2FqQzNpRFplNzJLRVFoV1UxaVFjV0ZVNEZuQ2k0cXdlUjI1Rnl1MzlkRFR0bjZEQmRrWDBuOE80NlFVZU1lYm9pcnc3dFcwTVgxRmU5WFQ0bE11ZlN0SkRoYUl0a0J4Tm8zVlo2T0tJLWpaWEFhV0ZrS3cwSVQ30gFWQVVfeXFMTmNLOXdpcEpEQ3FOeFRTaml6NEc3SE9mX3NveVc4WXZuMExHc2RiUmhEczhUUER6SDJDX3VBcnNtTU1SQ3pSM1NvQlpZOEFJNlo2cE1HaXc?oc=5",
+          "sentiment_label": "positive",
+          "sentiment_score": 1.0
         }
       ]
     },
     "FATIMA": {
       "price": {
-        "date": "2026-09-07",
-        "open": 153.99,
-        "high": 153.99,
-        "low": 151.1,
-        "close": 152.83,
-        "volume": 135501,
+        "date": "2026-09-08",
+        "open": 153.0,
+        "high": 153.5,
+        "low": 151.5,
+        "close": 153.0,
+        "volume": 234491,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-09-07",
-        "rsi_14": 40.24445201098232,
-        "macd": -1.5556930859065972,
-        "macd_signal": -0.6583659069665428,
-        "macd_hist": -0.8973271789400543,
-        "sma_20": 158.71400000000003,
-        "sma_50": 159.02,
-        "bb_lower": 149.6369603713075,
-        "bb_mid": 158.71400000000003,
-        "bb_upper": 167.79103962869254
+        "date": "2026-09-08",
+        "rsi_14": 40.709138176834436,
+        "macd": -1.638501166752377,
+        "macd_signal": -0.8543929589237098,
+        "macd_hist": -0.7841082078286672,
+        "sma_20": 158.18000000000004,
+        "sma_50": 158.81780000000003,
+        "bb_lower": 149.07649460229092,
+        "bb_mid": 158.18000000000004,
+        "bb_upper": 167.28350539770915
       },
       "fundamentals": [
         {
@@ -105,7 +105,7 @@
           "net_profit": 4189.33,
           "eps": 1.99,
           "source_url": "https://www.psx.com.pk/psx/files-attachment/?file=275979.pdf",
-          "entered_on": "2026-09-07"
+          "entered_on": "2026-09-08"
         }
       ],
       "recent_news": [
@@ -135,8 +135,8 @@
         },
         {
           "published": "Mon, 28 Jul 2025 07:00:00 GMT",
-          "headline": "FFCL acquires 100% stake of Fatima Petroleum Company Limited - Business Recorder",
-          "source": "Business Recorder",
+          "headline": "FFCL acquires 100% stake of Fatima Petroleum Company Limited - brecorder.com",
+          "source": "brecorder.com",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQmtsRWh1REZSN3Y0c2ZqaGxmRkZDQlJDVVVscTJ4YXFvbjRNWEpZYlJfMVpzR29KWW1aVTJFdHRsbEFrS28tUDh1bjkzZ2NxMFpSTm5na0FyUmh6dzZVN0xvYS01d3dFM21VcUJEV1Y4RkIwaWpxZFFvbXF4OVpNOXF2eWtmZVZTcUt5dE9XNTQweVhvVGlGdEZlZ09adXlT0gFWQVVfeXFMTWJSYTZCTjRUa3lWTWRQR1FGTGVWLUVzU1lrS3BZdGd2RENGSVJTLThnclJtbnlEbHhjYUhwQldKR1FBZWExX2lucjV1Z29hb3lfeW4wUmc?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
@@ -153,25 +153,25 @@
     },
     "EFERT": {
       "price": {
-        "date": "2026-09-07",
-        "open": 190.93,
-        "high": 191.0,
-        "low": 188.05,
-        "close": 189.52,
-        "volume": 373908,
+        "date": "2026-09-08",
+        "open": 189.0,
+        "high": 189.0,
+        "low": 185.7,
+        "close": 187.71,
+        "volume": 432265,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-09-07",
-        "rsi_14": 53.86069314828639,
-        "macd": -0.34441352508500245,
-        "macd_signal": -1.4504927992599466,
-        "macd_hist": 1.1060792741749441,
-        "sma_20": 186.1705,
-        "sma_50": 190.32460000000003,
-        "bb_lower": 179.7537867078403,
-        "bb_mid": 186.1705,
-        "bb_upper": 192.5872132921597
+        "date": "2026-09-08",
+        "rsi_14": 49.90996082028293,
+        "macd": -0.2881102534320519,
+        "macd_signal": -1.2180162900943678,
+        "macd_hist": 0.929906036662316,
+        "sma_20": 186.0255,
+        "sma_50": 190.0746,
+        "bb_lower": 179.90705687156574,
+        "bb_mid": 186.0255,
+        "bb_upper": 192.14394312843424
       },
       "fundamentals": [
         {
@@ -180,12 +180,12 @@
           "net_profit": 2891.066,
           "eps": 2.17,
           "source_url": "https://dps.psx.com.pk/download/document/276079.pdf",
-          "entered_on": "2026-09-07"
+          "entered_on": "2026-09-08"
         }
       ],
       "recent_news": [
         {
-          "published": "Mon, 08 May 2023 03:21:11 GMT",
+          "published": "Wed, 02 Sep 2026 06:56:26 GMT",
           "headline": "EFERT Stock Price and Chart \u2014 PSX:EFERT - TradingView",
           "source": "TradingView",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnVlpNUTQ0M2FJVF9Wanl3cm1PUjY0b3NWVDJhSzdQa3Z0dFdNa2d0LV9uZjZvaGxyemVtNHMzSTVKQU9pSno5d3VpRGltQkMzRWp3NFZQQUlUZw?oc=5",
@@ -218,8 +218,8 @@
         },
         {
           "published": "Sat, 19 Jul 2025 07:00:00 GMT",
-          "headline": "Engro Fertilizer Joins $1 Billion Dollar Club On PSX - Digital Pakistan",
-          "source": "Digital Pakistan",
+          "headline": "Engro Fertilizer Joins $1 Billion Dollar Club On PSX - digitalpakistan.pk",
+          "source": "digitalpakistan.pk",
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOekZ3Z0xSNkhHSkZlZ016Z3FzeFFJcHVmXzBJd3lsNnY4UmlMRTR5SnJLXzh6Q2xMaTBwLTVVQjVsTldranZMT1lEYnoxdlIySWlQeDNwdEFQVjREQ1dZZzNJVmwyTmEyUzl3b0Yzb2VBMThZNmQ4NnpOLVVfM1FudDFWY20zUQ?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
