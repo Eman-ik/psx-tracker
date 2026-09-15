@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-09-11T14:51:58.459303+00:00",
+  "generated_at": "2026-09-15T15:28:28.398717+00:00",
   "tickers": {
     "FFC": {
       "price": {
-        "date": "2026-09-11",
-        "open": 529.99,
-        "high": 544.0,
-        "low": 525.0,
-        "close": 541.37,
-        "volume": 1056605,
+        "date": "2026-09-15",
+        "open": 537.0,
+        "high": 542.0,
+        "low": 536.0,
+        "close": 540.41,
+        "volume": 582743,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-09-11",
-        "rsi_14": 42.40276308014003,
-        "macd": -4.08819202517509,
-        "macd_signal": -3.0887511604037354,
-        "macd_hist": -0.9994408647713544,
-        "sma_20": 546.8195,
-        "sma_50": 554.7417999999998,
-        "bb_lower": 536.0710411631741,
-        "bb_mid": 546.8195,
-        "bb_upper": 557.5679588368258
+        "date": "2026-09-15",
+        "rsi_14": 43.41547677179533,
+        "macd": -4.448914051807947,
+        "macd_signal": -3.595643781729366,
+        "macd_hist": -0.8532702700785806,
+        "sma_20": 545.0895,
+        "sma_50": 553.2721999999999,
+        "bb_lower": 534.6017237067391,
+        "bb_mid": 545.0895,
+        "bb_upper": 555.577276293261
       },
       "fundamentals": [
         {
@@ -30,7 +30,7 @@
           "net_profit": 17476.826,
           "eps": 12.14,
           "source_url": "https://dps.psx.com.pk/download/document/276333.pdf",
-          "entered_on": "2026-09-11"
+          "entered_on": "2026-09-15"
         }
       ],
       "recent_news": [
@@ -78,25 +78,25 @@
     },
     "FATIMA": {
       "price": {
-        "date": "2026-09-11",
-        "open": 147.0,
-        "high": 151.85,
-        "low": 142.0,
-        "close": 150.02,
-        "volume": 713494,
+        "date": "2026-09-15",
+        "open": 144.0,
+        "high": 150.0,
+        "low": 144.0,
+        "close": 148.14,
+        "volume": 316171,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-09-11",
-        "rsi_14": 36.548918253958405,
-        "macd": -2.1909681364106746,
-        "macd_signal": -1.4206876750963644,
-        "macd_hist": -0.7702804613143102,
-        "sma_20": 156.0985,
-        "sma_50": 158.06340000000003,
-        "bb_lower": 147.2902783024328,
-        "bb_mid": 156.0985,
-        "bb_upper": 164.9067216975672
+        "date": "2026-09-15",
+        "rsi_14": 39.2889332881392,
+        "macd": -2.9096815971404055,
+        "macd_signal": -1.9447467152477538,
+        "macd_hist": -0.9649348818926518,
+        "sma_20": 154.16,
+        "sma_50": 157.3266,
+        "bb_lower": 145.401841097112,
+        "bb_mid": 154.16,
+        "bb_upper": 162.918158902888
       },
       "fundamentals": [
         {
@@ -105,7 +105,7 @@
           "net_profit": 4189.33,
           "eps": 1.99,
           "source_url": "https://www.psx.com.pk/psx/files-attachment/?file=275979.pdf",
-          "entered_on": "2026-09-11"
+          "entered_on": "2026-09-15"
         }
       ],
       "recent_news": [
@@ -114,6 +114,22 @@
           "headline": "FATIMA Forecast \u2014 Price Target \u2014 Prediction for 2027 - TradingView",
           "source": "TradingView",
           "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBEODl0Sk80b04zVE9fMGI5cXlTUXdnVVRGcUF1LUpGdjBlWkJ4YktZMWp2bzZtRjdfN0trV1N2dXBXdUdEX2NHcFMwT2lfTDhUTE5ON1RHYUpxTGltbTd2U2hsdFplS3ZIZDQ0RFZNdHVScGU2ejNPQw?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
+        },
+        {
+          "published": "Mon, 09 Mar 2026 07:00:00 GMT",
+          "headline": "FATIMA plans up to around Rs70bn diversification investments - Mettis Global",
+          "source": "Mettis Global",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaEUzdXRQM3lkbEdzS2MwYk5IOTN0VjRleVNoVWJ0emwwZVhibm9wcUVnYlEzcXdycEEtNEhzYXB5YWduOHg0WUJHY1dMcS16ZUl5N3BBUUVsX2gzLTRncjJPUlNzeWs4Unh4SWQ5czBvZ1dZVXY2Rkl2VVZrUllXV01iWXJHbG1wdFNoa0tKTQ?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
+        },
+        {
+          "published": "Thu, 11 May 2023 18:34:10 GMT",
+          "headline": "FFC Stock Price and Chart \u2014 PSX:FFC - TradingView",
+          "source": "TradingView",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5PVVY4VmtLS1ptQ2xLSVFBbkNORThhcnBiN2JiaXlDd1VzMm1ncnptYUhBNzVDeUw4Wk9aT2pHZVM1WkxxY2hoZ0gzNmtZdy05b1BnclJEVQ?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
         },
@@ -132,46 +148,30 @@
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzZ05zNWZ3TUhHVUhlSG1NSWw5MER3cHJGUW1JejNONFBCSGdFVDVEUzdSNG5YS1J2TXo5bXFyUmVXNHhUaTZ4SVcyMG96S2FqcllrMGlPLWlDRTh0NmFZMUQxcEcwejlXVHNxZHUwS09IME1yQ0E?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
-        },
-        {
-          "published": "Fri, 21 Aug 2026 07:00:00 GMT",
-          "headline": "Fatima Fertilizer Company Limited: performance and outlook - Business Recorder",
-          "source": "Business Recorder",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBGVFZTQ3dCVWlpZmNmT1llQWlUcHUtUnZJU3NiX3pobUg2WW5VMnh4MzVJNWFqUnZBLTlzbmJPNjR4VGRQellLeVlUQlFPZ2pT0gFWQVVfeXFMT25HVzRLZnp1TTBianQyU0wtQWY4TnA3MVYxdHdSd1BPcTMtTWpUbXd2czNYdGhtWHlhOFQzQzFMRE8xSjVHRkVaVG9ZOHFHaW1ia1A1MlE?oc=5",
-          "sentiment_label": "neutral",
-          "sentiment_score": 0.0
-        },
-        {
-          "published": "Fri, 24 Apr 2026 07:00:00 GMT",
-          "headline": "Fatima Fertilizer Q1 profit takes major hit - Mettis Global",
-          "source": "Mettis Global",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMXJHaFF0QW1nUzNCVzVCYXFoei1PTFZnN0liVkRUUHV2VlQ1elprY2Y5eHFZV19NUGtoNzJGcTcwdGV4c2pmWkxtY1FnYTFfYVFqdDFTOGNNMmxBWG1wVkxsTlE0NUE0VEJmN0tBLVBtY24wMk9nR0t0QWNmSmk2Vg?oc=5",
-          "sentiment_label": "positive",
-          "sentiment_score": 1.0
         }
       ]
     },
     "EFERT": {
       "price": {
-        "date": "2026-09-11",
-        "open": 182.99,
-        "high": 191.27,
-        "low": 180.96,
-        "close": 189.19,
-        "volume": 1114933,
+        "date": "2026-09-15",
+        "open": 187.1,
+        "high": 190.1,
+        "low": 187.1,
+        "close": 189.1,
+        "volume": 663500,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-09-11",
-        "rsi_14": 53.16332690016562,
-        "macd": -0.33897956646666216,
-        "macd_signal": -0.8275113681512615,
-        "macd_hist": 0.4885318016845993,
-        "sma_20": 185.861,
-        "sma_50": 189.3096000000001,
-        "bb_lower": 179.73089516702586,
-        "bb_mid": 185.861,
-        "bb_upper": 191.99110483297412
+        "date": "2026-09-15",
+        "rsi_14": 52.826309972178585,
+        "macd": -0.13535924516091313,
+        "macd_signal": -0.6075731377241799,
+        "macd_hist": 0.47221389256326674,
+        "sma_20": 186.1165,
+        "sma_50": 188.91040000000007,
+        "bb_lower": 179.8203080849077,
+        "bb_mid": 186.1165,
+        "bb_upper": 192.4126919150923
       },
       "fundamentals": [
         {
@@ -180,7 +180,7 @@
           "net_profit": 2891.066,
           "eps": 2.17,
           "source_url": "https://dps.psx.com.pk/download/document/276079.pdf",
-          "entered_on": "2026-09-11"
+          "entered_on": "2026-09-15"
         }
       ],
       "recent_news": [
