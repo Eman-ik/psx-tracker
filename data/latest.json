@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-09-21T16:49:46.782002+00:00",
+  "generated_at": "2026-09-22T15:26:57.623326+00:00",
   "tickers": {
     "FFC": {
       "price": {
-        "date": "2026-09-21",
-        "open": 539.12,
-        "high": 541.5,
-        "low": 535.11,
-        "close": 540.51,
-        "volume": 430725,
+        "date": "2026-09-22",
+        "open": 540.51,
+        "high": 541.94,
+        "low": 536.8,
+        "close": 538.2,
+        "volume": 415322,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-09-21",
-        "rsi_14": 46.37216068926771,
-        "macd": -4.625286614187871,
-        "macd_signal": -4.419930704454245,
-        "macd_hist": -0.20535590973362616,
-        "sma_20": 543.386,
-        "sma_50": 550.521,
-        "bb_lower": 529.7005187958905,
-        "bb_mid": 543.386,
-        "bb_upper": 557.0714812041094
+        "date": "2026-09-22",
+        "rsi_14": 44.51578942074487,
+        "macd": -4.3986394284928565,
+        "macd_signal": -4.415672449261967,
+        "macd_hist": 0.017033020769110507,
+        "sma_20": 543.0545,
+        "sma_50": 550.0469999999999,
+        "bb_lower": 529.1961907312602,
+        "bb_mid": 543.0545,
+        "bb_upper": 556.9128092687397
       },
       "fundamentals": [
         {
@@ -30,38 +30,38 @@
           "net_profit": 17476.826,
           "eps": 12.14,
           "source_url": "https://dps.psx.com.pk/download/document/276333.pdf",
-          "entered_on": "2026-09-21"
+          "entered_on": "2026-09-22"
         }
       ],
       "recent_news": [
         {
           "published": "Wed, 28 Jan 2026 08:00:00 GMT",
-          "headline": "FFC completes share issuance to Fauji Foundation - mettisglobal.news",
-          "source": "mettisglobal.news",
+          "headline": "FFC completes share issuance to Fauji Foundation - Mettis Global",
+          "source": "Mettis Global",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOODBDODFUMmxkZmx3V0JDUzM2TUZ1OFNjTnR5OUszSW1JOEt2bzJJV3B4WXp1Zkttd3puU2xUenkxUFJ2MmREVWQ5YU1ZQ1ZnRUZueUFrOUNqM0piNmtoNENNekltQ0hHRlEwUlBHME5BM0xMcml4ejU3RkJOMUtlQWg2MHlvd3c?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
         },
         {
           "published": "Wed, 29 Jul 2026 07:38:22 GMT",
-          "headline": "FFC declares Rs14.5/share dividend - mettisglobal.news",
-          "source": "mettisglobal.news",
+          "headline": "FFC declares Rs14.5/share dividend - Mettis Global",
+          "source": "Mettis Global",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSUNUZ0J0azlYa3FYOThsbEhIWW5EQ2UzRjFXOVZLelplSThVR0JCa2FLMG1qWnlXNW96STNXRThuTWRzUnZYYTVWYmlvMngwVGhmeTZjR0lmRjlxT0w0NlI1eW05ZTdGOTVvMGtVSjZnUnFCNHJuTjdUdVAtNUlkem9uY3JOVHhD?oc=5",
           "sentiment_label": "positive",
           "sentiment_score": 1.0
         },
         {
           "published": "Thu, 29 Jan 2026 08:00:00 GMT",
-          "headline": "FFC delivers strong profit, yet sends PSX sliding - mettisglobal.news",
-          "source": "mettisglobal.news",
+          "headline": "FFC delivers strong profit, yet sends PSX sliding - Mettis Global",
+          "source": "Mettis Global",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNjlJc0xDQktraTJhOVRFVHRGR2dOOEVkdEZIOXFqNW11NlQ0YVloQTZlM2ptazloQzRJbE5QRTVIV29yWE9xcmlkMGtnZEhkdDd4WHgtZUc3Y0NiWHdsZTUzckJyQllGN2hWRE9JaXllMDB3RzlLX1NnLXZ3VWJsSHpyLThwR1E?oc=5",
           "sentiment_label": "mixed",
           "sentiment_score": 0.333
         },
         {
           "published": "Tue, 11 Nov 2025 08:00:00 GMT",
-          "headline": "FFC to acquire remaining 25% stake in FPCL to gain ownership - mettisglobal.news",
-          "source": "mettisglobal.news",
+          "headline": "FFC to acquire remaining 25% stake in FPCL to gain ownership - Mettis Global",
+          "source": "Mettis Global",
           "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaUtwNjBwcEwyNjMzMmp1MTJhaUJkWDZ5LXNVT1JiWmxTbGNXOHgwdF9CVEFEZ0tFZENuMDhydlBpZ1VNVFh1YV9uTXV0ZEVwTEhmOTN0VTZBdl9NU1FZVGJSYTdRZ0JMU1VHSVZ3OUQtMlVvYzNBaFZiUGViNHlweHRndkx5VGYtOXA0R0M2ZEFZUU45Ui1uNl91ak8tc0k3QjVXMjNLcXVRUElaWHM1XzRfd0cyenZtc1U4?oc=5",
           "sentiment_label": "positive",
           "sentiment_score": 1.0
@@ -78,25 +78,25 @@
     },
     "FATIMA": {
       "price": {
-        "date": "2026-09-21",
-        "open": 148.45,
-        "high": 149.34,
-        "low": 147.0,
-        "close": 148.76,
-        "volume": 214442,
+        "date": "2026-09-22",
+        "open": 149.0,
+        "high": 149.9,
+        "low": 147.99,
+        "close": 148.46,
+        "volume": 316746,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-09-21",
-        "rsi_14": 42.23772383392968,
-        "macd": -2.917636361469846,
-        "macd_signal": -2.5829380763725784,
-        "macd_hist": -0.3346982850972675,
-        "sma_20": 151.82250000000002,
-        "sma_50": 156.074,
-        "bb_lower": 143.53180293072054,
-        "bb_mid": 151.82250000000002,
-        "bb_upper": 160.1131970692795
+        "date": "2026-09-22",
+        "rsi_14": 41.713086807897554,
+        "macd": -2.777385195172627,
+        "macd_signal": -2.6218275001325884,
+        "macd_hist": -0.1555576950400388,
+        "sma_20": 151.342,
+        "sma_50": 155.78560000000002,
+        "bb_lower": 143.4726467864364,
+        "bb_mid": 151.342,
+        "bb_upper": 159.21135321356363
       },
       "fundamentals": [
         {
@@ -105,7 +105,7 @@
           "net_profit": 4189.33,
           "eps": 1.99,
           "source_url": "https://www.psx.com.pk/psx/files-attachment/?file=275979.pdf",
-          "entered_on": "2026-09-21"
+          "entered_on": "2026-09-22"
         }
       ],
       "recent_news": [
@@ -119,17 +119,9 @@
         },
         {
           "published": "Mon, 09 Mar 2026 07:00:00 GMT",
-          "headline": "FATIMA plans up to around Rs70bn diversification investments - mettisglobal.news",
-          "source": "mettisglobal.news",
+          "headline": "FATIMA plans up to around Rs70bn diversification investments - Mettis Global",
+          "source": "Mettis Global",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaEUzdXRQM3lkbEdzS2MwYk5IOTN0VjRleVNoVWJ0emwwZVhibm9wcUVnYlEzcXdycEEtNEhzYXB5YWduOHg0WUJHY1dMcS16ZUl5N3BBUUVsX2gzLTRncjJPUlNzeWs4Unh4SWQ5czBvZ1dZVXY2Rkl2VVZrUllXV01iWXJHbG1wdFNoa0tKTQ?oc=5",
-          "sentiment_label": "neutral",
-          "sentiment_score": 0.0
-        },
-        {
-          "published": "Thu, 11 May 2023 18:34:10 GMT",
-          "headline": "FFC Stock Price and Chart \u2014 PSX:FFC - TradingView",
-          "source": "TradingView",
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5PVVY4VmtLS1ptQ2xLSVFBbkNORThhcnBiN2JiaXlDd1VzMm1ncnptYUhBNzVDeUw4Wk9aT2pHZVM1WkxxY2hoZ0gzNmtZdy05b1BnclJEVQ?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
         },
@@ -148,30 +140,38 @@
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBsVjRhM1N0d1prVlRfOWNmMHhlNHBOVnVrQ0F1a0lYaXpaaGw2S1k2VV8ya3NzeVdmUFBZWUN3OWlLSnlrU096OWRSTXY2a2d6dnZjNU5POWlrUkxIc1BBZ0V4MGRBeTB5QjIwSG9fQmVhV2NScWFuY292Szg?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
+        },
+        {
+          "published": "Thu, 08 Feb 2024 01:11:17 GMT",
+          "headline": "Fatima Fertilizer Co. Ltd. Financial Statements \u2013 PSX:FATIMA - TradingView",
+          "source": "TradingView",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzZ05zNWZ3TUhHVUhlSG1NSWw5MER3cHJGUW1JejNONFBCSGdFVDVEUzdSNG5YS1J2TXo5bXFyUmVXNHhUaTZ4SVcyMG96S2FqcllrMGlPLWlDRTh0NmFZMUQxcEcwejlXVHNxZHUwS09IME1yQ0E?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
         }
       ]
     },
     "EFERT": {
       "price": {
-        "date": "2026-09-21",
-        "open": 188.0,
-        "high": 190.1,
-        "low": 188.0,
-        "close": 189.85,
-        "volume": 352719,
+        "date": "2026-09-22",
+        "open": 190.0,
+        "high": 191.9,
+        "low": 190.0,
+        "close": 191.01,
+        "volume": 621727,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-09-21",
-        "rsi_14": 54.34820639501315,
-        "macd": 0.1400088829216486,
-        "macd_signal": -0.25418726068481573,
-        "macd_hist": 0.3941961436064643,
-        "sma_20": 186.831,
-        "sma_50": 188.22400000000007,
-        "bb_lower": 180.5606356187397,
-        "bb_mid": 186.831,
-        "bb_upper": 193.10136438126028
+        "date": "2026-09-22",
+        "rsi_14": 56.470472286767,
+        "macd": 0.37890482258248426,
+        "macd_signal": -0.12756884403135574,
+        "macd_hist": 0.50647366661384,
+        "sma_20": 187.243,
+        "sma_50": 188.11220000000003,
+        "bb_lower": 181.01343686586307,
+        "bb_mid": 187.243,
+        "bb_upper": 193.47256313413692
       },
       "fundamentals": [
         {
@@ -180,12 +180,20 @@
           "net_profit": 2891.066,
           "eps": 2.17,
           "source_url": "https://dps.psx.com.pk/download/document/276079.pdf",
-          "entered_on": "2026-09-21"
+          "entered_on": "2026-09-22"
         }
       ],
       "recent_news": [
         {
-          "published": "Wed, 02 Sep 2026 07:00:00 GMT",
+          "published": "Mon, 20 Apr 2026 07:00:00 GMT",
+          "headline": "EFERT Q1CY26 profit climbs 14% - Mettis Global",
+          "source": "Mettis Global",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXbGliclYtWmd1NFlIbGRuTHk0MUlCRFZCLTFvLUJCWUt6UVF0MmRDc3ZXUDRUYi1kdEllRnUwaFlRbUo0a1VQZFJFdlYtUWk2MGN4TjFPb0gxcnN6Q3FBWThPTWt5eFF6QnVuczBB?oc=5",
+          "sentiment_label": "positive",
+          "sentiment_score": 1.0
+        },
+        {
+          "published": "Mon, 08 May 2023 03:21:11 GMT",
           "headline": "EFERT Stock Price and Chart \u2014 PSX:EFERT - TradingView",
           "source": "TradingView",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnVlpNUTQ0M2FJVF9Wanl3cm1PUjY0b3NWVDJhSzdQa3Z0dFdNa2d0LV9uZjZvaGxyemVtNHMzSTVKQU9pSno5d3VpRGltQkMzRWp3NFZQQUlUZw?oc=5",
@@ -194,8 +202,8 @@
         },
         {
           "published": "Wed, 30 Jul 2025 07:00:00 GMT",
-          "headline": "EFERT lifts half-year dividend to Rs6.5 per share despite profit dip - mettisglobal.news",
-          "source": "mettisglobal.news",
+          "headline": "EFERT lifts half-year dividend to Rs6.5 per share despite profit dip - Mettis Global",
+          "source": "Mettis Global",
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWDR1bEwxaVJPa2tVU1E1ZWZkaFFCOFN3X3lvNDl4bmtVdW9lRzJiR2lRX2VKRUZPcGRtNFhyaFRZSXdLajBwUHc1NDdaekx3d3JTVnJJUTFHN245eTlMR3lBamJuLXhmY2tEZVNDWjhxaElmMlhBOGl3RDRRazJXNkxQeS0zZXhLendZLVpnc3hwNWN4QVdOelhLQjFsUFU?oc=5",
           "sentiment_label": "positive",
           "sentiment_score": 1.0
@@ -213,14 +221,6 @@
           "headline": "Engro Fertilizers Ltd. Actuals & Estimates (PSX:EFERT) - TradingView",
           "source": "TradingView",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTGlZQU50R1AwWEo2XzhKZnRhV3J4TGR1dzBrMUxGWlZwa2hUb2s5Q0FNd1V5VXRMb2ZQZUo5S3BnRjdhOF95Qmg0M1ZETU5sUGpTUXpkZm95cDZyWU5DZ1JWaU5LVW5pQjZ0RjFRZUR0TWgxQVIwZl8teHdwQXFuc3Z0cw?oc=5",
-          "sentiment_label": "neutral",
-          "sentiment_score": 0.0
-        },
-        {
-          "published": "Sun, 14 Jan 2024 16:29:12 GMT",
-          "headline": "Engro Fertilizers Ltd. Dividends \u2013 PSX:EFERT - TradingView",
-          "source": "TradingView",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9PLTdiWHJGaXNZdTN3b2NYbmRtY2QyMjVrYnNrUENRUWotaF9ta1lCRGo1bWtKV3F1R1dCN1NrWkw2ekZqQVpuRUtmYU9pcmpTTlVHYlJmVW9nd0RfVUNmb0Q4Y0Z0TGwtMEZGbTVGZk11MWtGRGc?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
         }
