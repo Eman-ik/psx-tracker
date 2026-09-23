@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-09-22T15:26:57.623326+00:00",
+  "generated_at": "2026-09-23T15:21:07.727639+00:00",
   "tickers": {
     "FFC": {
       "price": {
-        "date": "2026-09-22",
-        "open": 540.51,
-        "high": 541.94,
-        "low": 536.8,
-        "close": 538.2,
-        "volume": 415322,
+        "date": "2026-09-23",
+        "open": 539.05,
+        "high": 546.88,
+        "low": 539.05,
+        "close": 544.15,
+        "volume": 715961,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-09-22",
-        "rsi_14": 44.51578942074487,
-        "macd": -4.3986394284928565,
-        "macd_signal": -4.415672449261967,
-        "macd_hist": 0.017033020769110507,
-        "sma_20": 543.0545,
-        "sma_50": 550.0469999999999,
-        "bb_lower": 529.1961907312602,
-        "bb_mid": 543.0545,
-        "bb_upper": 556.9128092687397
+        "date": "2026-09-23",
+        "rsi_14": 50.061218053829926,
+        "macd": -3.6962960274098577,
+        "macd_signal": -4.271797164891545,
+        "macd_hist": 0.5755011374816874,
+        "sma_20": 542.875,
+        "sma_50": 549.807,
+        "bb_lower": 529.1801888428447,
+        "bb_mid": 542.875,
+        "bb_upper": 556.5698111571553
       },
       "fundamentals": [
         {
@@ -30,7 +30,7 @@
           "net_profit": 17476.826,
           "eps": 12.14,
           "source_url": "https://dps.psx.com.pk/download/document/276333.pdf",
-          "entered_on": "2026-09-22"
+          "entered_on": "2026-09-23"
         }
       ],
       "recent_news": [
@@ -59,44 +59,44 @@
           "sentiment_score": 0.333
         },
         {
-          "published": "Tue, 11 Nov 2025 08:00:00 GMT",
-          "headline": "FFC to acquire remaining 25% stake in FPCL to gain ownership - Mettis Global",
-          "source": "Mettis Global",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaUtwNjBwcEwyNjMzMmp1MTJhaUJkWDZ5LXNVT1JiWmxTbGNXOHgwdF9CVEFEZ0tFZENuMDhydlBpZ1VNVFh1YV9uTXV0ZEVwTEhmOTN0VTZBdl9NU1FZVGJSYTdRZ0JMU1VHSVZ3OUQtMlVvYzNBaFZiUGViNHlweHRndkx5VGYtOXA0R0M2ZEFZUU45Ui1uNl91ak8tc0k3QjVXMjNLcXVRUElaWHM1XzRfd0cyenZtc1U4?oc=5",
-          "sentiment_label": "positive",
-          "sentiment_score": 1.0
-        },
-        {
           "published": "Tue, 24 Mar 2026 07:00:00 GMT",
           "headline": "Mari Energies inks agreements with major fertilizer firms to boost gas supply - Business Recorder",
           "source": "Business Recorder",
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUThublBCZ0JwVk1PZG9JVGQxaVJ0N3dXLVRaTzdwTEFSdkt2ZGwyUTVvTFNvVC1jNVFsTVMzRlo4d2FqQzNpRFplNzJLRVFoV1UxaVFjV0ZVNEZuQ2k0cXdlUjI1Rnl1MzlkRFR0bjZEQmRrWDBuOE80NlFVZU1lYm9pcnc3dFcwTVgxRmU5WFQ0bE11ZlN0SkRoYUl0a0J4Tm8zVlo2T0tJLWpaWEFhV0ZrS3cwSVQ30gFWQVVfeXFMTmNLOXdpcEpEQ3FOeFRTaml6NEc3SE9mX3NveVc4WXZuMExHc2RiUmhEczhUUER6SDJDX3VBcnNtTU1SQ3pSM1NvQlpZOEFJNlo2cE1HaXc?oc=5",
           "sentiment_label": "positive",
           "sentiment_score": 1.0
+        },
+        {
+          "published": "Mon, 16 Mar 2026 07:38:20 GMT",
+          "headline": "Middle East tensions drag PSX as KSE-100 loses 2.3% during week-INP - Independent News Pakistan",
+          "source": "Independent News Pakistan",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbm5uZWpMd3NUUTZCdXh2YUg4UGp3V0FHWVZfY1I0SjJ5eXdIT0Z0ZEJwUVdoMW54RkdFVW9qVTMwUkZYWTBUdl9MczdaT21JYWpldHowYkRoUFlsaUt4NVp0eHZQeHFkYklmQ2NELV9uUDVLblA2MEtNVjRnc29qN3dEcm9VNDMwLU4tUFkzLUl6SjgyMFJNU3dIT3RTR1AtbzYzMW9vNzE1T3NndVhjRkt3?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
         }
       ]
     },
     "FATIMA": {
       "price": {
-        "date": "2026-09-22",
+        "date": "2026-09-23",
         "open": 149.0,
-        "high": 149.9,
-        "low": 147.99,
-        "close": 148.46,
-        "volume": 316746,
+        "high": 150.51,
+        "low": 146.96,
+        "close": 148.09,
+        "volume": 751727,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-09-22",
-        "rsi_14": 41.713086807897554,
-        "macd": -2.777385195172627,
-        "macd_signal": -2.6218275001325884,
-        "macd_hist": -0.1555576950400388,
-        "sma_20": 151.342,
-        "sma_50": 155.78560000000002,
-        "bb_lower": 143.4726467864364,
-        "bb_mid": 151.342,
-        "bb_upper": 159.21135321356363
+        "date": "2026-09-23",
+        "rsi_14": 41.036085496578636,
+        "macd": -2.6653663589549126,
+        "macd_signal": -2.6305352718970534,
+        "macd_hist": -0.0348310870578592,
+        "sma_20": 150.88400000000001,
+        "sma_50": 155.58720000000005,
+        "bb_lower": 143.40592425540297,
+        "bb_mid": 150.88400000000001,
+        "bb_upper": 158.36207574459706
       },
       "fundamentals": [
         {
@@ -105,7 +105,7 @@
           "net_profit": 4189.33,
           "eps": 1.99,
           "source_url": "https://www.psx.com.pk/psx/files-attachment/?file=275979.pdf",
-          "entered_on": "2026-09-22"
+          "entered_on": "2026-09-23"
         }
       ],
       "recent_news": [
@@ -126,6 +126,14 @@
           "sentiment_score": 0.0
         },
         {
+          "published": "Thu, 11 May 2023 18:34:10 GMT",
+          "headline": "FFC Stock Price and Chart \u2014 PSX:FFC - TradingView",
+          "source": "TradingView",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5PVVY4VmtLS1ptQ2xLSVFBbkNORThhcnBiN2JiaXlDd1VzMm1ncnptYUhBNzVDeUw4Wk9aT2pHZVM1WkxxY2hoZ0gzNmtZdy05b1BnclJEVQ?oc=5",
+          "sentiment_label": "neutral",
+          "sentiment_score": 0.0
+        },
+        {
           "published": "Thu, 25 Jun 2026 17:52:51 GMT",
           "headline": "Fatima Fertilizer Co. Ltd. Actuals & Estimates (PSX:FATIMA) - TradingView",
           "source": "TradingView",
@@ -140,38 +148,30 @@
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBsVjRhM1N0d1prVlRfOWNmMHhlNHBOVnVrQ0F1a0lYaXpaaGw2S1k2VV8ya3NzeVdmUFBZWUN3OWlLSnlrU096OWRSTXY2a2d6dnZjNU5POWlrUkxIc1BBZ0V4MGRBeTB5QjIwSG9fQmVhV2NScWFuY292Szg?oc=5",
           "sentiment_label": "neutral",
           "sentiment_score": 0.0
-        },
-        {
-          "published": "Thu, 08 Feb 2024 01:11:17 GMT",
-          "headline": "Fatima Fertilizer Co. Ltd. Financial Statements \u2013 PSX:FATIMA - TradingView",
-          "source": "TradingView",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzZ05zNWZ3TUhHVUhlSG1NSWw5MER3cHJGUW1JejNONFBCSGdFVDVEUzdSNG5YS1J2TXo5bXFyUmVXNHhUaTZ4SVcyMG96S2FqcllrMGlPLWlDRTh0NmFZMUQxcEcwejlXVHNxZHUwS09IME1yQ0E?oc=5",
-          "sentiment_label": "neutral",
-          "sentiment_score": 0.0
         }
       ]
     },
     "EFERT": {
       "price": {
-        "date": "2026-09-22",
-        "open": 190.0,
-        "high": 191.9,
-        "low": 190.0,
-        "close": 191.01,
-        "volume": 621727,
+        "date": "2026-09-23",
+        "open": 191.06,
+        "high": 193.5,
+        "low": 191.06,
+        "close": 192.87,
+        "volume": 956125,
         "is_anomaly": 0
       },
       "indicators": {
-        "date": "2026-09-22",
-        "rsi_14": 56.470472286767,
-        "macd": 0.37890482258248426,
-        "macd_signal": -0.12756884403135574,
-        "macd_hist": 0.50647366661384,
-        "sma_20": 187.243,
-        "sma_50": 188.11220000000003,
-        "bb_lower": 181.01343686586307,
-        "bb_mid": 187.243,
-        "bb_upper": 193.47256313413692
+        "date": "2026-09-23",
+        "rsi_14": 59.70515079080043,
+        "macd": 0.7101320707773482,
+        "macd_signal": 0.039971338930385056,
+        "macd_hist": 0.6701607318469631,
+        "sma_20": 187.785,
+        "sma_50": 188.08700000000007,
+        "bb_lower": 181.57892657403144,
+        "bb_mid": 187.785,
+        "bb_upper": 193.99107342596855
       },
       "fundamentals": [
         {
@@ -180,7 +180,7 @@
           "net_profit": 2891.066,
           "eps": 2.17,
           "source_url": "https://dps.psx.com.pk/download/document/276079.pdf",
-          "entered_on": "2026-09-22"
+          "entered_on": "2026-09-23"
         }
       ],
       "recent_news": [
